@@ -7,12 +7,18 @@ class Pages extends CI_Controller {
         parent::__construct();
         $this->load->helper('url');
         $this->load->library('session');
-   
     }
 
 
 	public function index()
 	{
-		$this->load->view('welcome_message');
-	}
+        $this->Main();
+    }
+    
+    public function Main($pages = 'index')
+    {
+        $this->load->view('inc/header');
+        $this->load->view('main/'.$pages);
+        $this->load->view('inc/footer');
+    }
 }
