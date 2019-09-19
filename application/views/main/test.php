@@ -24,27 +24,27 @@
 						<div class="carousel-inner" role="listbox">
 							<!--First slide-->
 							<div class="carousel-item active">
-								<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/lcr.png' ?>" alt="First slide">
+								<img class="d-block w-100" src="<?php echo base_url().'/assets/img/caru/lcr.png' ?>" alt="First slide">
 							</div>
 							<!--/First slide-->
 							<!--Second slide-->
 							<div class="carousel-item">
-								<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/spc.png' ?>" alt="Second slide">
+								<img class="d-block w-100" src="<?php echo base_url().'/assets/img/caru/spc.png' ?>" alt="Second slide">
 							</div>
 							<!--/Second slide-->
 							<!--Third slide-->
 							<div class="carousel-item">
-								<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/ebpls.png' ?>"
+								<img class="d-block w-100" src="<?php echo base_url().'/assets/img/caru/ebpls.png' ?>"
 									alt="Third slide">
 							</div>
 
 							<div class="carousel-item">
-								<img class="d-block w-100   h-50" src="<?php echo base_url().'/assets/img/caru/phones.jpg' ?>"
+								<img class="d-block w-100  h-50" src="<?php echo base_url().'/assets/img/caru/phones.jpg' ?>"
 									alt="Third slide">
 							</div>
 
 							<div class="carousel-item">
-								<img class="d-block w-100   h-50" src="<?php echo base_url().'/assets/img/caru/hr.png' ?>"
+								<img class="d-block w-100  h-50" src="<?php echo base_url().'/assets/img/caru/hr.png' ?>"
 									alt="Third slide">
 							</div>
 
@@ -89,7 +89,7 @@
 
 		<div   class="col-lg-6 col-sm-12 p-0 text-center">
 			<div class="col-12">
-				<img class="pr-0 responsive" height="700px" src="<?php echo base_url().'/assets/img/wedev.png'?>" alt="">
+				<img class="pr-0" height="700px" src="<?php echo base_url().'/assets/img/wedev.png'?>" alt="">
 			</div>
 		</div>
 
@@ -133,7 +133,7 @@
 			</div>
 		</div>
 		<div class="col-lg-4 col-sm-12">
-			<img height="390px" class="responsive pt-5 mt-5" src="<?php echo base_url().'/assets/img/dev.jpg' ?>" alt="">
+			<img height="390px" class="pt-5 mt-5" src="<?php echo base_url().'/assets/img/dev.jpg' ?>" alt="">
 		</div>
 		<div class="col-lg-4 col-sm-12">
 			<div class="row">
@@ -157,13 +157,13 @@
 					<div class="card">
 						<div class="card-body">
 							<div class="col-lg-12 text-center">
-								<button data-toggle="modal" data-target="#list" class="btnres btn btn-lg btn-info m-3"><i
+								<button data-toggle="modal" data-target="#list" class="btn btn-lg btn-info m-3"><i
 										class="fas fa-project-diagram text-white fa-2x"></i><br>
 									<h3 class="text-white">List of Projects</h3>
 								</button>
 							</div>
 							<div class="col-lg-12 text-center">
-								<button data-toggle="modal" data-target="#10yrs" class="btnres btn btn-lg btn-primary m-3"><i
+								<button data-toggle="modal" data-target="#10yrs" class="btn btn-lg btn-primary m-3"><i
 										class="fas fa-glass-cheers text-white fa-2x"></i><br>
 									<h3 class="text-white">Projects Last Ten Years</h3>
 								</button>
@@ -251,7 +251,7 @@
 <div class="row">
 <div class="col-lg-6 col-sm-12">
 
-<img height="320px" class="responsive " src="<?php echo base_url().'/assets/img/mail.png'?>" alt="">
+<img height="320px" src="<?php echo base_url().'/assets/img/mail.png'?>" alt="">
 
 </div>
 <div class="col-lg-6 col-sm-12">
