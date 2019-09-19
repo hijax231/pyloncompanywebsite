@@ -18,22 +18,19 @@
 <link rel="stylesheet" href="../../../../assets/MBD/css/addons/datatables.min.css">
 <link rel="stylesheet" href="../../../../assets/MBD/css/addons/datatables-select.min.css">
 <link rel="stylesheet" href="../../../../assets/css/style.css">
-
-
-
-
-
-<body>
     
 
 <div id="navbar" class="">
   <a href="#default" id="logo"><img src="<?php echo base_url() .'/assets/img/logo.png'?>" height="80px" alt="" srcset=""></a>
   <div id="navbar-right" class="mt-4">
     <a class="active" href="#home">Home</a>
-    <a href="#contact">About Us</a>
-    <a href="#about">Products Offered</a>
-    <a href="#about">Serivice Offered</a>
+
+    <a href="#about">Products and Serivice Offered</a>
     <a href="#about">List of Projects</a>
-    
+    <a href="#contact">About Us</a>
+    <a href="#contact">Contact Us</a>
   </div>
 </div>
+
+
+<body>
