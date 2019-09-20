@@ -88,8 +88,8 @@
 		</div>
 
 		<div   class="col-lg-6 col-sm-12 p-0 text-center">
-			<div class="col-12">
-				<img class="pr-0 responsive" height="700px" src="<?php echo base_url().'/assets/img/wedev.png'?>" alt="">
+			<div class="col-12 p-0">
+				<img class="pr-0 responsive" height="600px" src="<?php echo base_url().'/assets/img/wedev.png'?>" alt="">
 			</div>
 		</div>
 
@@ -157,14 +157,14 @@
 					<div class="card">
 						<div class="card-body">
 							<div class="col-lg-12 text-center">
-								<button data-toggle="modal" data-target="#list" class="btnres btn btn-lg btn-info m-3"><i
-										class="fas fa-project-diagram text-white fa-2x"></i><br>
+								<button data-toggle="modal" data-target="#list" class="btnres btn btn-md btn-info "><i
+										class="fas fa-project-diagram text-white fa-3x"></i><br>
 									<h3 class="text-white">List of Projects</h3>
 								</button>
 							</div>
 							<div class="col-lg-12 text-center">
-								<button data-toggle="modal" data-target="#10yrs" class="btnres btn btn-lg btn-primary m-3"><i
-										class="fas fa-glass-cheers text-white fa-2x"></i><br>
+								<button data-toggle="modal" data-target="#10yrs" class="btnres btn btn-md btn-primary "><i
+										class="fas fa-glass-cheers text-white fa-3x"></i><br>
 									<h3 class="text-white">Projects Last Ten Years</h3>
 								</button>
 							</div>
@@ -256,7 +256,7 @@
 </div>
 <div class="col-lg-6 col-sm-12">
   <h3 class="text-white mt-5 pt-5">Let’s Get Started!</h3>
-<h1 class="text-white text-center "> <i class="fas fa-envelope"></i> <br>Pylontradingintl@gmail.com</h1>
+<h2 class="text-responsive text-white text-center "> <i class="fas fa-envelope"></i> <br>Pylontradingintl@gmail.com</h2>
 </div>
 </div>
 
