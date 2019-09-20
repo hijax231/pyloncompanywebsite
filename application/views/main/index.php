@@ -98,7 +98,7 @@
 </div>
 </div>
 
-<div  id="services" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<div  class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
 
 	<div class="row">
 		<div  class="fadeIn col-lg-4 col-sm-12">
@@ -155,14 +155,14 @@
 				</div>
 				<div class="col-lg-12 pt-3">
 					<div class="card">
-						<div class="card-body">
-							<div class="col-lg-12 text-center">
+						<div class="card-body l1">
+							<div class="col-lg-12 l text-center">
 								<button data-toggle="modal" data-target="#list" class="btnres btn btn-md btn-info "><i
 										class="fas fa-project-diagram text-white fa-3x"></i><br>
 									<h3 class="text-white">List of Projects</h3>
 								</button>
 							</div>
-							<div class="col-lg-12 text-center">
+							<div class="col-lg-12 l text-center">
 								<button data-toggle="modal" data-target="#10yrs" class="btnres btn btn-md btn-primary "><i
 										class="fas fa-glass-cheers text-white fa-3x"></i><br>
 									<h3 class="text-white">Projects Last Ten Years</h3>
@@ -192,7 +192,7 @@
 	</div> -->
 
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<div class="pm1"style="color: #777;background-color:white;text-align:center;text-align: justify;">
 
 	<p><b>PYLON INTERNATIONAL TRADING</b> was founded in February 02, 1990 as a single proprietor company
 		with the purpose of importation, marketing and distribution of electro – mechanical components such as
@@ -247,16 +247,17 @@
 </div>
 
 <div style="position:relative;">
-	<div style="color:#ddd;background-color:#282E34;text-align:center;padding:10px 80px;text-align: center;" class="text-white">
+	<div class="pm1" style="color:#ddd;background-color:#282E34;text-align:center;text-align: center;" class="text-white">
 <div class="row">
 <div class="col-lg-6 col-sm-12">
 
-<img height="320px" class="responsive " src="<?php echo base_url().'/assets/img/mail.png'?>" alt="">
+<img height="320px" class="responsive pconta" src="<?php echo base_url().'/assets/img/mail.png'?>" alt="">
 
 </div>
 <div class="col-lg-6 col-sm-12">
   <h3 class="text-white mt-5 pt-5">Let’s Get Started!</h3>
-<h2 class="text-responsive text-white text-center "> <i class="fas fa-envelope"></i> <br>Pylontradingintl@gmail.com</h2>
+  <h2><i class="fas fa-envelope"></i></h2><br>
+<h3 class="rescontact text-white  ">Pylontradingintl @gmail.com</h3>
 </div>
 </div>
 
@@ -304,7 +305,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<img src="<?php echo base_url().'/assets/img/list.PNG'?>" alt="" srcset="">
+				<img ckass="responsive" src="<?php echo base_url().'/assets/img/list.PNG'?>" alt="" srcset="">
 			</div>
 			<!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -327,7 +328,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<img src="<?php echo base_url().'/assets/img/10yrs.PNG'?>" alt="" srcset="">
+				<img class="responsive"src="<?php echo base_url().'/assets/img/10yrs.PNG'?>" alt="" srcset="">
 			</div>
 			<!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

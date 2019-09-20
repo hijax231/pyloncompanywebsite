@@ -69,11 +69,31 @@
     .hidse{
       display: none;
     }
-    #services{
-      padding: 0px;
+    .pm{
+      padding: 0px  !important;
       margin: 0px;
     }
 
+    .pm1{
+      padding: 10px  !important;
+      margin: 0px;
+    }
+
+
+    .l{
+      padding-left: 0px;
+    }
+    .l1{
+      padding-left: 6px;
+    }
+
+    .rescontact{
+      font-size: 20px;
+    }
+
+    .pconta{
+      padding: 0px 100px;
+    }
     
 
     .responsive {
@@ -89,6 +109,11 @@
   
   }
 
+  #services{
+    padding: 10px;
+    margin: 0px;
+  }
+
   @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
@@ -101,11 +126,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     overflow-x:hidden;
   }
 
-  div{
-
-    padding:0;
-  }
-
+ 
 }
 
 
@@ -118,6 +139,18 @@ only screen and (min-device-pixel-ratio: 1.5){
     color: rgb(42, 42, 42);
     scroll-behavior: smooth;
   }
+
+  .pm{
+    padding: 50px 80px;
+    margin: 0px;
+  }
+
+  .pm1{
+    padding: 50px 80px;
+    margin: 0px;
+  }
+
+ 
   body{
 
     overflow-x: hidden;
