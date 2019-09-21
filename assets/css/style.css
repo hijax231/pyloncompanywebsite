@@ -47,13 +47,47 @@
     float: right;
   }
   
-  /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-  @media screen and (max-width: 580px) {
+
+ 
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
   
-   
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media screen and (max-width: 768px) {
+
+  .logoa{
+    height: 10px !important;;
+    padding: 0px !important;
+    
+  }
+
+  .logo{
+    height: 60px;
+    padding-top: 40px;
+    padding-left: 5px;
+
+  }
+}
+
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+ 
+
     #navbar {
-      padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+      padding: 0px 0px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
      
+    }
+    
+    .marginmobile{
+      padding-top: 0px !important; 
+      margin-top: 0px !important;
     }
     /* #navbar a {
       float: none;
@@ -66,6 +100,43 @@
     /* #logo{
       display: none;
     } */
+    #navbar-right {
+      float: right;
+      padding-right: 10px;
+    }
+   #home{
+
+    padding-top: 70px !important; 
+   }
+    
+  }
+
+  /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+  @media screen and (max-width: 580px) {
+  
+   
+    #navbar {
+      padding: 20px 5px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+     
+    }
+    .logo{
+      height: 40px;
+      padding-top: 0px !important;
+    }
+    .marginmobile{
+      padding-top: 0px !important; 
+      margin-top: 0px !important;
+    }
+    /* #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    } */
+    #navbar-right {
+      float: none;
+    }
+   
+    
     .hidse{
       display: none;
     }

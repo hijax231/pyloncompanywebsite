@@ -1,6 +1,6 @@
-<div class="col-lg-12 col-sm-12 pt-5"></div>
+<div class="col-lg-12 col-sm-12 marginmobile pt-5"></div>
 
-<div id="home" class="col-lg-12 col-sm-12  mt-5 pt-5"></div>
+<div id="home" class="col-lg-12 col-sm-12 marginmobile  mt-5 pt-5"></div>
 
 
 <div class="bgimg-1">
@@ -98,7 +98,7 @@
 </div>
 </div>
 
-<div  class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
+<div id="services"  class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
 
 	<div class="row">
 		<div  class="fadeIn col-lg-4 col-sm-12">
@@ -128,6 +128,10 @@
 						<li> Trolleys – Supermarket / Airport</li>
 						<li> eLearning Laboratory Set up</li>
 						<li> Science Laboratory Set up</li>
+						<li> Aral Pinoy eLearning Application</li>
+						<li> Inventory System</li>
+						<li> Human Resource Management System</li>
+						<li> ID/Attendance Monitoring System</li>
 					</ul>
 				</div>
 			</div>

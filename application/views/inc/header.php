@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="../../../../assets/css/style.css">
 
 <div id="navbar" class="">
-  <a href="#home" id="logo"><img src="<?php echo base_url() .'/assets/img/logo.png'?>" height="80px" alt="" srcset=""></a>
+  <a class="logoa" href="#home" ><img class="logo" src="<?php echo base_url() .'/assets/img/logo.png'?>" height="80px" alt="" srcset=""></a>
   <div id="navbar-right" class="mt-4">
     <a class="active hidse" href="#home">Home</a>
     <a class="hidse"href="#services">Products and Serivice Offered</a>
