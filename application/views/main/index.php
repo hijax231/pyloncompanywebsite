@@ -145,7 +145,7 @@
 					<div class="card">
 						<div class="card-body">
 
-							<h3>Serivice Offered</h3>
+							<h3>Service Offered</h3>
 							<ul class="list-group pl-3">
 								<li> Software Developement</li>
 								<li> System Analysis</li>
@@ -262,7 +262,7 @@
   <h3 class="text-white mt-5 pt-5">Let’s Get Started!</h3>
   <h2><i class="fas fa-envelope"></i></h2><br>
 <h3 class="rescontact text-white  ">Pylontradingintl @gmail.com
-<br> 0917-8813235<br>
+<br>
 0918-8928458
 
 </h3>

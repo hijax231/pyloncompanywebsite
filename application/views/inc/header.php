@@ -23,7 +23,7 @@
   <a class="logoa" href="#home" ><img class="logo" src="<?php echo base_url() .'/assets/img/logo.png'?>" height="80px" alt="" srcset=""></a>
   <div id="navbar-right" class="mt-4">
     <a class="active hidse" href="#home">Home</a>
-    <a class="hidse"href="#services">Products and Serivice Offered</a>
+    <a class="hidse"href="#services">Products and Service Offered</a>
     <a class="hidse"href="#services">List of Projects</a>
     <a class="hidse"href="#about">About Us</a>
     <a class="hidse"href="#contact">Contact Us</a>
