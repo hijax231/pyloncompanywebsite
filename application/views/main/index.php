@@ -99,7 +99,7 @@
 </div>
 
 <div id="services"  class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
-
+<div class="container">
 	<div class="row">
 		<div  class="fadeIn col-lg-4 col-sm-12">
 			<div class="card">
@@ -179,7 +179,7 @@
 			</div>
 		</div>
 	</div>
-
+	</div>
 </div>
 
 
@@ -309,8 +309,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<img ckass="responsive" src="<?php echo base_url().'/assets/img/list.PNG'?>" alt="" srcset="">
-			</div>
+			<!-- <img class="responsive"src="<?php echo base_url().'/assets/img/10yrs.PNG'?>" alt="" srcset=""> -->
+		
+
+			<img class="resizeimg"  src="<?php echo base_url().'/assets/img/list.PNG'?>" alt="" srcset="">
+	
+
+
+		
+					</div>
 			<!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>

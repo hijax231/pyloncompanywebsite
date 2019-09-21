@@ -14,7 +14,7 @@
   /* Style the navbar links */
   #navbar a {
     float: left;
-    color: black;
+    color: rgb(54, 54, 54);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -22,7 +22,7 @@
     line-height: 25px;
     border-radius: 4px;
   }
-  
+
   /* Style the logo */
   #navbar #logo {
     font-size: 35px;
@@ -113,7 +113,9 @@
 
   /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
   @media screen and (max-width: 580px) {
-  
+  .resizeimg{
+    height: 400px;
+  }
    
     #navbar {
       padding: 20px 5px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
