@@ -261,7 +261,11 @@
 <div class="col-lg-6 col-sm-12">
   <h3 class="text-white mt-5 pt-5">Let’s Get Started!</h3>
   <h2><i class="fas fa-envelope"></i></h2><br>
-<h3 class="rescontact text-white  ">Pylontradingintl @gmail.com</h3>
+<h3 class="rescontact text-white  ">Pylontradingintl @gmail.com
+<br> 0917-8813235<br>
+0918-8928458
+
+</h3>
 </div>
 </div>
 
