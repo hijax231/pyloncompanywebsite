@@ -10,7 +10,7 @@
     z-index: 99;
   border-bottom: solid 4px rgb(56, 149, 161);
   }
-  
+
   /* Style the navbar links */
   #navbar a {
     float: left;
@@ -29,32 +29,32 @@
     font-weight: bold;
     transition: 0.4s;
   }
-  
+
   /* Links on mouse-over */
   #navbar a:hover {
     background-color: #ddd;
     color: black;
   }
-  
+
   /* Style the active/current link */
   #navbar a.active {
     background-color: dodgerblue;
     color: white;
   }
-  
+
   /* Display some links to the right */
   #navbar-right {
     float: right;
   }
-  
 
- 
-/* 
+
+
+/*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-  
-/* 
+
+/*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
@@ -63,7 +63,7 @@
   .logoa{
     height: 10px !important;;
     padding: 0px !important;
-    
+
   }
 
   .logo{
@@ -77,16 +77,16 @@
 
 
   @media (min-width: 768px) and (max-width: 1024px) {
-  
- 
+
+
 
     #navbar {
       padding: 0px 0px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
-     
+
     }
-    
+
     .marginmobile{
-      padding-top: 0px !important; 
+      padding-top: 0px !important;
       margin-top: 0px !important;
     }
     /* #navbar a {
@@ -106,9 +106,9 @@
     }
    #home{
 
-    padding-top: 70px !important; 
+    padding-top: 70px !important;
    }
-    
+
   }
 
   /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
@@ -116,17 +116,17 @@
   .resizeimg{
     height: 400px;
   }
-   
+
     #navbar {
       padding: 20px 5px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
-     
+
     }
     .logo{
       height: 40px;
       padding-top: 0px !important;
     }
     .marginmobile{
-      padding-top: 0px !important; 
+      padding-top: 0px !important;
       margin-top: 0px !important;
     }
     /* #navbar a {
@@ -137,8 +137,8 @@
     #navbar-right {
       float: none;
     }
-   
-    
+
+
     .hidse{
       display: none;
     }
@@ -167,7 +167,7 @@
     .pconta{
       padding: 0px 100px;
     }
-    
+
 
     .responsive {
       width: 100%;
@@ -178,8 +178,8 @@
 
     width: 100%; display:block;
   }
-  
-  
+
+
   }
 
   #services{
@@ -199,14 +199,14 @@ only screen and (min-device-pixel-ratio: 1.5){
     overflow-x:hidden;
   }
 
- 
+
 }
 
 
   body, html {
-  
+
     height: 100%;
-  
+
     margin: 0;
     font: 400 15px/1.8 "Helvetica", sans-serif;
     color: rgb(42, 42, 42);
@@ -223,31 +223,31 @@ only screen and (min-device-pixel-ratio: 1.5){
     margin: 0px;
   }
 
- 
+
   body{
 
     overflow-x: hidden;
   }
-  
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 ,.bgimg-5 {
     position: relative;
     opacity: .9;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
+
   }
   .bgimg-1 {
     background-image: url("/assets/img/1.jpg");
     min-height: 100%;
   }
-  
+
   .bgimg-2 {
     background-image: url("/assets/img/2.jpg");
     min-height: 350px;
   }
-  
+
   .bgimg-3 {
     background-image: url("/assets/img/3.png");
     min-height: 400px;
@@ -255,9 +255,14 @@ only screen and (min-device-pixel-ratio: 1.5){
   .bgimg-4 {
     background-image: url("/assets/img/3.png");
     min-height: 400px;
-    
   }
-  
+  .bgimg-5 {
+    background-image: url("/assets/img/3.png");
+    min-height: 400px;
+
+  }
+
+
   .caption {
     position: absolute;
     left: 0;
@@ -266,7 +271,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     text-align: center;
     color: #000;
   }
-  
+
   .caption span.border {
     background-color: #111;
     color: #fff;
@@ -274,7 +279,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     font-size: 25px;
     letter-spacing: 10px;
   }
-  
+
   h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -298,5 +303,136 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 
 
-  
 
+
+  .carsel {
+      position: relative;
+      box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+      margin-top: 26px auto;
+      width: 60%;
+  }
+
+  .carsel-inner {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+  }
+
+  .carsel-open:checked + .carsel-item {
+      position: static;
+      opacity: 100;
+  }
+
+  .carsel-item {
+      position: absolute;
+      opacity: 0;
+      -webkit-transition: opacity 0.6s ease-out;
+      transition: opacity 0.6s ease-out;
+  }
+
+  .carsel-item img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+  }
+
+  .carsel-control {
+      background: rgba(0, 0, 0, 0.28);
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+      font-size: 40px;
+      height: 40px;
+      line-height: 35px;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(0, -50%);
+      cursor: pointer;
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      text-align: center;
+      width: 40px;
+      z-index: 10;
+  }
+
+  .carsel-control.prev {
+      left: 2%;
+  }
+
+  .carsel-control.next {
+      right: 2%;
+  }
+
+  .carsel-control:hover {
+      background: rgba(0, 0, 0, 0.8);
+      color: #aaaaaa;
+  }
+
+  #carsel-1:checked ~ .control-1,
+  #carsel-2:checked ~ .control-2,
+  #carsel-3:checked ~ .control-3,
+  #carsel-4:checked ~ .control-4,
+  #carsel-5:checked ~ .control-5,
+  #carsel-6:checked ~ .control-6,
+  #carsel-7:checked ~ .control-7,
+  #carsel-8:checked ~ .control-8,
+  #carsel-9:checked ~ .control-9,
+  #carsel-10:checked ~ .control-10
+ {
+      display: block;
+  }
+
+  .carsel-indicators {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      bottom: 2%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 10;
+  }
+
+  .carsel-indicators li {
+      display: inline-block;
+      margin: 0 5px;
+  }
+
+  .carsel-bullet {
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      font-size: 35px;
+  }
+
+  .carsel-bullet:hover {
+      color: #aaaaaa;
+  }
+
+  #carsel-1:checked ~ .control-1 ~ .carsel-indicators li:nth-child(1) .carsel-bullet,
+  #carsel-2:checked ~ .control-2 ~ .carsel-indicators li:nth-child(2) .carsel-bullet,
+  #carsel-3:checked ~ .control-3 ~ .carsel-indicators li:nth-child(3) .carsel-bullet,
+  #carsel-4:checked ~ .control-4 ~ .carsel-indicators li:nth-child(4) .carsel-bullet,
+  #carsel-5:checked ~ .control-5 ~ .carsel-indicators li:nth-child(5) .carsel-bullet,
+  #carsel-6:checked ~ .control-6 ~ .carsel-indicators li:nth-child(6) .carsel-bullet,
+  #carsel-7:checked ~ .control-7 ~ .carsel-indicators li:nth-child(7) .carsel-bullet,
+  #carsel-8:checked ~ .control-8 ~ .carsel-indicators li:nth-child(8) .carsel-bullet,
+  #carsel-9:checked ~ .control-9 ~ .carsel-indicators li:nth-child(9) .carsel-bullet,
+  #carsel-10:checked ~ .control-10 ~ .carsel-indicators li:nth-child(10) .carsel-bullet {
+      color: #428bca;
+  }
+
+  #title {
+      width: 100%;
+      position: absolute;
+      padding: 0px;
+      margin: 0px auto;
+      text-align: center;
+      font-size: 27px;
+      color: rgba(255, 255, 255, 1);
+      font-family: 'Open Sans', sans-serif;
+      z-index: 9999;
+      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+  }

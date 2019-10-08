@@ -95,8 +95,8 @@
 
 	</div>
 </div>
-</div>
-</div>
+<!-- </div>
+</div> -->
 
 <div id="services"  class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
 <div class="container">
@@ -181,6 +181,130 @@
 	</div>
 	</div>
 </div>
+
+
+<!-- //////////// -->
+
+<div id="projectslist"  class="bgimg-2">
+	<div class="caption">
+		<span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;"><b>LIST OF PROJECTS</b> </span>
+	</div>
+</div>
+
+<div class ="container">
+	<div id=""class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
+
+	<div class="carsel m-auto">
+	    <div class="carsel-inner">
+	        <input class="carsel-open" type="radio" id="carsel-1" name="carsel" aria-hidden="true" hidden="" checked="checked">
+	        <div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/1.png' ?>" alt="First slide">
+	        </div>
+					<input class="carsel-open" type="radio" id="carsel-2" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/2.png' ?>" alt="First slide">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-3" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/3.png' ?>" alt="First slide">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-4" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/4.png' ?>" alt="First slide">
+					</div>
+
+					<input class="carsel-open" type="radio" id="carsel-5" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/5.png' ?>" alt="First slide">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-6" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/6.png' ?>" alt="First slide">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-7" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/7.png' ?>" alt="First slide">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-8" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/8.png' ?>" alt="First slide">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-9" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/9.png' ?>" alt="First slide">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-10" name="carsel" aria-hidden="true" hidden="">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/10.png' ?>" alt="First slide">
+					</div>
+
+	        <label for="carsel-10" class="carsel-control prev control-1">‹</label>
+	        <label for="carsel-2" class="carsel-control next control-1">›</label>
+	        <label for="carsel-1" class="carsel-control prev control-2">‹</label>
+	        <label for="carsel-3" class="carsel-control next control-2">›</label>
+	        <label for="carsel-2" class="carsel-control prev control-3">‹</label>
+	        <label for="carsel-4" class="carsel-control next control-3">›</label>
+					<label for="carsel-3" class="carsel-control prev control-4">‹</label>
+					<label for="carsel-5" class="carsel-control next control-4">›</label>
+
+					<label for="carsel-4" class="carsel-control prev control-5">‹</label>
+					<label for="carsel-6" class="carsel-control next control-5">›</label>
+
+					<label for="carsel-5" class="carsel-control prev control-6">‹</label>
+					<label for="carsel-7" class="carsel-control next control-6">›</label>
+
+					<label for="carsel-6" class="carsel-control prev control-7">‹</label>
+					<label for="carsel-8" class="carsel-control next control-7">›</label>
+
+					<label for="carsel-7" class="carsel-control prev control-8">‹</label>
+					<label for="carsel-9" class="carsel-control next control-8">›</label>
+
+					<label for="carsel-8" class="carsel-control prev control-9">‹</label>
+					<label for="carsel-10" class="carsel-control next control-9">›</label>
+
+					<label for="carsel-9" class="carsel-control prev control-10">‹</label>
+					<label for="carsel-1" class="carsel-control next control-10">›</label>
+	        <ol class="carsel-indicators">
+	            <li>
+	                <label for="carsel-1" class="carsel-bullet">•</label>
+	            </li>
+	            <li>
+	                <label for="carsel-2" class="carsel-bullet">•</label>
+	            </li>
+	            <li>
+	                <label for="carsel-3" class="carsel-bullet">•</label>
+	            </li>
+							<li>
+									<label for="carsel-4" class="carsel-bullet">•</label>
+							</li>
+							<li>
+									<label for="carsel-5" class="carsel-bullet">•</label>
+							</li>
+							<li>
+									<label for="carsel-6" class="carsel-bullet">•</label>
+							</li>
+							<li>
+									<label for="carsel-7" class="carsel-bullet">•</label>
+							</li>
+							<li>
+									<label for="carsel-8" class="carsel-bullet">•</label>
+							</li>
+							<li>
+									<label for="carsel-9" class="carsel-bullet">•</label>
+							</li>
+							<li>
+									<label for="carsel-10" class="carsel-bullet">•</label>
+							</li>
+
+	        </ol>
+	    </div>
+	</div>
+</div>
+</div>
+
+
+<!-- ////////// -->
+
 
 
 
@@ -284,7 +408,7 @@
 
 </div>
 <div class="col-4">
- 
+
 </div> -->
 
 </div>
@@ -292,7 +416,7 @@
 </div>
 <div style="position:relative;">
 	<div class="text-white" style="color:#ddd;background-color:#282E34;text-align:center;padding:15px 80px;text-align: center;">
-  
+
   © 2019 Pylon International Trading Corporation. All rights reserved.
 
 </div>
@@ -314,13 +438,13 @@
 			</div>
 			<div class="modal-body">
 			<!-- <img class="responsive"src="<?php echo base_url().'/assets/img/10yrs.PNG'?>" alt="" srcset=""> -->
-		
+
 
 			<img class="resizeimg"  src="<?php echo base_url().'/assets/img/list.PNG'?>" alt="" srcset="">
-	
 
 
-		
+
+
 					</div>
 			<!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
