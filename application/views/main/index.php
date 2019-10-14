@@ -188,14 +188,14 @@
 
 <div id="projectslist"  class="bgimg-2">
 	<div class="caption">
-		<span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;"><b>LIST OF PROJECTS</b> </span>
+		<span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;"><b class ="list_projects">LIST OF PROJECTS</b> </span>
 	</div>
 </div>
 
 <div class =" marginmobile">
 	<div id=""class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
 
-	<div class="carsel m-auto ">
+	<div class="carsel m-auto p-3" >
 	    <div class="carsel-inner ">
 	        <input class="carsel-open" type="radio" id="carsel-1" name="carsel" aria-hidden="true" hidden="" checked="checked">
 	        <div class="carsel-item">

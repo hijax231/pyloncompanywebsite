@@ -316,8 +316,9 @@ only screen and (min-device-pixel-ratio: 1.5){
   }
 
 
-
-
+.list_projects{
+   font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
 
   .carsel {
       position: relative;
