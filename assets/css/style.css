@@ -388,12 +388,12 @@ only screen and (min-device-pixel-ratio: 1.5){
   #carsel-2:checked ~ .control-2,
   #carsel-3:checked ~ .control-3,
   #carsel-4:checked ~ .control-4,
-  #carsel-5:checked ~ .control-5,
-  #carsel-6:checked ~ .control-6,
+  #carsel-5:checked ~ .control-5
+  /* #carsel-6:checked ~ .control-6,
   #carsel-7:checked ~ .control-7,
   #carsel-8:checked ~ .control-8,
   #carsel-9:checked ~ .control-9,
-  #carsel-10:checked ~ .control-10
+  #carsel-10:checked ~ .control-10 */
  {
       display: block;
   }
@@ -430,12 +430,13 @@ only screen and (min-device-pixel-ratio: 1.5){
   #carsel-2:checked ~ .control-2 ~ .carsel-indicators li:nth-child(2) .carsel-bullet,
   #carsel-3:checked ~ .control-3 ~ .carsel-indicators li:nth-child(3) .carsel-bullet,
   #carsel-4:checked ~ .control-4 ~ .carsel-indicators li:nth-child(4) .carsel-bullet,
-  #carsel-5:checked ~ .control-5 ~ .carsel-indicators li:nth-child(5) .carsel-bullet,
-  #carsel-6:checked ~ .control-6 ~ .carsel-indicators li:nth-child(6) .carsel-bullet,
+  #carsel-5:checked ~ .control-5 ~ .carsel-indicators li:nth-child(5) .carsel-bullet
+  /* #carsel-6:checked ~ .control-6 ~ .carsel-indicators li:nth-child(6) .carsel-bullet,
   #carsel-7:checked ~ .control-7 ~ .carsel-indicators li:nth-child(7) .carsel-bullet,
   #carsel-8:checked ~ .control-8 ~ .carsel-indicators li:nth-child(8) .carsel-bullet,
   #carsel-9:checked ~ .control-9 ~ .carsel-indicators li:nth-child(9) .carsel-bullet,
-  #carsel-10:checked ~ .control-10 ~ .carsel-indicators li:nth-child(10) .carsel-bullet {
+  #carsel-10:checked ~ .control-10 ~ .carsel-indicators li:nth-child(10) .carsel-bullet */
+  {
       color: #428bca;
   }
 

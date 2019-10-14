@@ -201,45 +201,45 @@
 	        <div class="carsel-item">
 						<img class="m-auto " src="<?php echo base_url().'/assets/img/proj_list/1.png' ?>" alt="First slide">
 	        </div>
-					<input class="carsel-open" type="radio" id="carsel-2" name="carsel" aria-hidden="true" hidden="">
+					<!-- <input class="carsel-open" type="radio" id="carsel-2" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/2.png' ?>" alt="First slide">
-					</div>
-					<input class="carsel-open" type="radio" id="carsel-3" name="carsel" aria-hidden="true" hidden="">
+					</div> -->
+					<!-- <input class="carsel-open" type="radio" id="carsel-3" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/3.png' ?>" alt="First slide">
 					</div>
 					<input class="carsel-open" type="radio" id="carsel-4" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/4.png' ?>" alt="First slide">
-					</div>
+					</div> -->
 
-					<input class="carsel-open" type="radio" id="carsel-5" name="carsel" aria-hidden="true" hidden="">
+					<input class="carsel-open" type="radio" id="carsel-2" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/5.png' ?>" alt="First slide">
 					</div>
-					<input class="carsel-open" type="radio" id="carsel-6" name="carsel" aria-hidden="true" hidden="">
+					<input class="carsel-open" type="radio" id="carsel-3" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/6.png' ?>" alt="First slide">
 					</div>
-					<input class="carsel-open" type="radio" id="carsel-7" name="carsel" aria-hidden="true" hidden="">
+					<input class="carsel-open" type="radio" id="carsel-4" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/7.png' ?>" alt="First slide">
 					</div>
-					<input class="carsel-open" type="radio" id="carsel-8" name="carsel" aria-hidden="true" hidden="">
+					<input class="carsel-open" type="radio" id="carsel-5" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/8.png' ?>" alt="First slide">
 					</div>
-					<input class="carsel-open" type="radio" id="carsel-9" name="carsel" aria-hidden="true" hidden="">
-					<div class="carsel-item">
+					<!-- <input class="carsel-open" type="radio" id="carsel-9" name="carsel" aria-hidden="true" hidden=""> -->
+					<!-- <div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/9.png' ?>" alt="First slide">
-					</div>
-					<input class="carsel-open" type="radio" id="carsel-10" name="carsel" aria-hidden="true" hidden="">
+					</div> -->
+					<!-- <input class="carsel-open" type="radio" id="carsel-10" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/10.png' ?>" alt="First slide">
-					</div>
+					</div> -->
 
-	        <label for="carsel-10" class="carsel-control prev control-1">‹</label>
+	        <label for="carsel-5" class="carsel-control prev control-1">‹</label>
 	        <label for="carsel-2" class="carsel-control next control-1">›</label>
 	        <label for="carsel-1" class="carsel-control prev control-2">‹</label>
 	        <label for="carsel-3" class="carsel-control next control-2">›</label>
@@ -249,9 +249,9 @@
 					<label for="carsel-5" class="carsel-control next control-4">›</label>
 
 					<label for="carsel-4" class="carsel-control prev control-5">‹</label>
-					<label for="carsel-6" class="carsel-control next control-5">›</label>
+					<label for="carsel-1" class="carsel-control next control-5">›</label>
 
-					<label for="carsel-5" class="carsel-control prev control-6">‹</label>
+					<!-- <label for="carsel-5" class="carsel-control prev control-6">‹</label>
 					<label for="carsel-7" class="carsel-control next control-6">›</label>
 
 					<label for="carsel-6" class="carsel-control prev control-7">‹</label>
@@ -264,7 +264,7 @@
 					<label for="carsel-10" class="carsel-control next control-9">›</label>
 
 					<label for="carsel-9" class="carsel-control prev control-10">‹</label>
-					<label for="carsel-1" class="carsel-control next control-10">›</label>
+					<label for="carsel-1" class="carsel-control next control-10">›</label> -->
 	        <ol class="carsel-indicators">
 	            <li>
 	                <label for="carsel-1" class="carsel-bullet">•</label>
@@ -281,7 +281,7 @@
 							<li>
 									<label for="carsel-5" class="carsel-bullet">•</label>
 							</li>
-							<li>
+							<!-- <li>
 									<label for="carsel-6" class="carsel-bullet">•</label>
 							</li>
 							<li>
@@ -295,7 +295,7 @@
 							</li>
 							<li>
 									<label for="carsel-10" class="carsel-bullet">•</label>
-							</li>
+							</li> -->
 
 	        </ol>
 	    </div>
