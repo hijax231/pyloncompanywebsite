@@ -161,10 +161,11 @@
 					<div class="card">
 						<div class="card-body l1">
 							<div class="col-lg-12 l text-center">
-								<button data-toggle="modal" data-target="#list" class="btnres btn btn-md btn-info "><i
+								<!-- <button data-toggle="modal" href="#projectslist" data-target="#list" class="btnres btn btn-md btn-info "><i -->
+								<a href="#projectslist" class="btnres btn btn-md btn-info "><i
 										class="fas fa-project-diagram text-white fa-3x"></i><br>
 									<h3 class="text-white">List of Projects</h3>
-								</button>
+								</a>
 							</div>
 							<div class="col-lg-12 l text-center">
 								<button data-toggle="modal" data-target="#10yrs" class="btnres btn btn-md btn-primary "><i
@@ -191,14 +192,14 @@
 	</div>
 </div>
 
-<div class ="container">
+<div class =" marginmobile">
 	<div id=""class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
 
-	<div class="carsel m-auto">
-	    <div class="carsel-inner">
+	<div class="carsel m-auto ">
+	    <div class="carsel-inner ">
 	        <input class="carsel-open" type="radio" id="carsel-1" name="carsel" aria-hidden="true" hidden="" checked="checked">
 	        <div class="carsel-item">
-						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/1.png' ?>" alt="First slide">
+						<img class="m-auto " src="<?php echo base_url().'/assets/img/proj_list/1.png' ?>" alt="First slide">
 	        </div>
 					<input class="carsel-open" type="radio" id="carsel-2" name="carsel" aria-hidden="true" hidden="">
 					<div class="carsel-item">
