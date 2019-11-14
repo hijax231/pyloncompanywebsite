@@ -1,6 +1,7 @@
-<div class="col-lg-12 col-sm-12 marginmobile pt-5"></div>
 
-<div id="home" class="col-lg-12 col-sm-12 marginmobile  mt-5 pt-5"></div>
+<div class="col-lg-12 col-sm-12 marginmobile pt-3"></div>
+
+<div id="home" class="col-lg-12 col-sm-12 marginmobile mt-3 pt-3"></div>
 
 
 <div class="bgimg-1">
@@ -62,34 +63,24 @@
 						<!--/.Controls-->
 					</div>
 					<!--/.Carousel Wrapper-->
-
-
-
 				</div>
 
-				<div  class="col-lg-12 col-sm-12 pt-5 ">
+				<div  class="col-lg-12 col-sm-12 pt-5">
 					<div class="card">
-						<div class="card-body">
-
-							<blockquote class="blockquote">
-								Technology made large populations possible; large populations now make technology indispensable.
-								<br>–Joseph Wood Krutch
+						<div class="card-body pb-0" style="color:black;background-color:#dfe0d4;">
+							<blockquote class="blockquote " style="border: 2px solid #dfe0d4; color:black;background-color:#dfe0d4;text-align:center;text-align: justify;">
+								<b>"Technology made large populations possible; large populations now make technology indispensable."</b>
+								<i><br>– Joseph Wood Krutch</i>
 							</blockquote>
 						</div>
 					</div>
-
 				</div>
 			</div>
-
-
-
-
-
 		</div>
 
-		<div   class="col-lg-6 col-sm-12 p-0 text-center">
+		<div   class="col-lg-6 col-sm-12 p-0 text-center mt-0 mb-0">
 			<div class="col-12 p-0">
-				<img class="pr-0 responsive" height="600px" src="<?php echo base_url().'/assets/img/wedev.png'?>" alt="">
+				<img class="pr-0 responsive pt-5" height="600px" src="<?php echo base_url().'/assets/img/pylon4.png'?>" alt="">
 			</div>
 		</div>
 
@@ -98,15 +89,15 @@
 <!-- </div>
 </div> -->
 
-<div id="services"  class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
+<div id="services"  class="pm" style="color:black;background-color:#e2e2e2;text-align:center;text-align: justify;">
 <div class="container">
 	<div class="row">
 		<div  class="fadeIn col-lg-4 col-sm-12">
 			<div class="card">
-				<div class="card-body">
+				<div class="card-body" style="color:black;background-color:#dfe0d4;">
 
 
-					<h3>Products Offered</h3>
+					<h3><b>Products Offered</b></h3>
 					<ul class="list-group pl-3">
 						<li class="">Business Permit & Licensing System</li>
 						<li class="">Real Property Tax System</li>
@@ -136,20 +127,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-4 col-sm-12">
-			<img height="390px" class="responsive pt-5 mt-5" src="<?php echo base_url().'/assets/img/dev.jpg' ?>" alt="">
+
+		<div class="col-lg-4 col-sm-12 mt-3 mb-5" align="center">
+			<img height="440px" class="responsive pt-5 mt-5" src="<?php echo base_url().'/assets/img/pylon2.png' ?>" alt="">
 		</div>
 		<div class="col-lg-4 col-sm-12">
 			<div class="row">
 				<div class="col-lg-12 col-sm-12">
 					<div class="card">
-						<div class="card-body">
+						<div class="card-body" style="color:black;background-color:#dfe0d4;">
 
-							<h3>Service Offered</h3>
+							<h3><b>Services Offered</b></h3>
 							<ul class="list-group pl-3">
 								<li> Software Developement</li>
 								<li> System Analysis</li>
-								<li> Database Buildup</li>
+								<li> Database Build-up</li>
 								<li> 3D Design</li>
 								<li> Cabling</li>
 								<li> Networking</li>
@@ -159,21 +151,19 @@
 				</div>
 				<div class="col-lg-12 pt-3">
 					<div class="card">
-						<div class="card-body l1">
-							<div class="col-lg-12 l text-center">
-								<!-- <button data-toggle="modal" href="#projectslist" data-target="#list" class="btnres btn btn-md btn-info "><i -->
-								<a href="#projectslist" class="btnres btn btn-md btn-info "><i
-										class="fas fa-project-diagram text-white fa-3x"></i><br>
-									<h3 class="text-white">List of Projects</h3>
+						<div class="card-body l1" style="color:black;background-color:#dfe0d4;">
+							<div class="col-lg-12 text-center" style="color:black;background-color:#bfbfbf;">
+								<a href="#projectslist" class="btnres btn1 btn btn-md"><i
+										class="fas fa-project-diagram text-black fa-3x"></i><br>
+									<h3 class="text-white"><b>List of Projects</b></h3>
 								</a>
 							</div>
-							<div class="col-lg-12 l text-center">
-								<button data-toggle="modal" data-target="#10yrs" class="btnres btn btn-md btn-primary "><i
-										class="fas fa-glass-cheers text-white fa-3x"></i><br>
-									<h3 class="text-white">Projects Last Ten Years</h3>
+							<div class="col-lg-12 text-center" style="color:black;background-color:#bfbfbf;">
+								<button data-toggle="modal" data-target="#10yrs" class="btnres btn2 btn btn-md"><i
+										class="fas fa-glass-cheers text-black fa-3x"></i><br>
+									<h3 class="text-white"><b>Projects Last Ten Years</b></h3>
 								</button>
-							</div>
-
+							 </div>
 						</div>
 					</div>
 				</div>
@@ -182,62 +172,42 @@
 	</div>
 	</div>
 </div>
+</div>
 
 
 <!-- //////////// -->
 
 <div id="projectslist"  class="bgimg-2">
 	<div class="caption">
-		<span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;"><b class ="list_projects">LIST OF PROJECTS</b> </span>
+		<span class="border" style="background-color: #0f0f0f;font-size:25px;color: #dfe0d4;border-radius: 12px;"><b class ="list_projects">LIST OF PROJECTS</b> </span>
 	</div>
 </div>
 
 <div class =" marginmobile">
-	<div id=""class="pm" style="color: #777;background-color:white;text-align:center;text-align: justify;">
+	<div id=""class="pm" style="color: #777;background-color:#dfe0d4;text-align:center;text-align: justify;">
 
-	<div class="carsel m-auto p-3" >
+	<div class="carsel m-auto p-3" style="color:black;background-color:white;">
 	    <div class="carsel-inner ">
 	        <input class="carsel-open" type="radio" id="carsel-1" name="carsel" aria-hidden="true" hidden="" checked="checked">
 	        <div class="carsel-item">
-						<img class="m-auto " src="<?php echo base_url().'/assets/img/proj_list/1.png' ?>" alt="First slide">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/1.png' ?>" alt="First slide">
 	        </div>
-					<!-- <input class="carsel-open" type="radio" id="carsel-2" name="carsel" aria-hidden="true" hidden="">
+					<input class="carsel-open" type="radio" id="carsel-2" name="carsel" aria-hidden="false" hidden="" checked="checked">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/2.png' ?>" alt="First slide">
-					</div> -->
-					<!-- <input class="carsel-open" type="radio" id="carsel-3" name="carsel" aria-hidden="true" hidden="">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-3" name="carsel" aria-hidden="true" hidden="" checked="checked">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/3.png' ?>" alt="First slide">
 					</div>
-					<input class="carsel-open" type="radio" id="carsel-4" name="carsel" aria-hidden="true" hidden="">
+					<input class="carsel-open" type="radio" id="carsel-4" name="carsel" aria-hidden="true" hidden="" checked="checked">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/4.png' ?>" alt="First slide">
-					</div> -->
-
-					<input class="carsel-open" type="radio" id="carsel-2" name="carsel" aria-hidden="true" hidden="">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-5" name="carsel" aria-hidden="true" hidden="" checked="checked">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/5.png' ?>" alt="First slide">
 					</div>
-					<input class="carsel-open" type="radio" id="carsel-3" name="carsel" aria-hidden="true" hidden="">
-					<div class="carsel-item">
-						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/6.png' ?>" alt="First slide">
-					</div>
-					<input class="carsel-open" type="radio" id="carsel-4" name="carsel" aria-hidden="true" hidden="">
-					<div class="carsel-item">
-						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/7.png' ?>" alt="First slide">
-					</div>
-					<input class="carsel-open" type="radio" id="carsel-5" name="carsel" aria-hidden="true" hidden="">
-					<div class="carsel-item">
-						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/8.png' ?>" alt="First slide">
-					</div>
-					<!-- <input class="carsel-open" type="radio" id="carsel-9" name="carsel" aria-hidden="true" hidden=""> -->
-					<!-- <div class="carsel-item">
-						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/9.png' ?>" alt="First slide">
-					</div> -->
-					<!-- <input class="carsel-open" type="radio" id="carsel-10" name="carsel" aria-hidden="true" hidden="">
-					<div class="carsel-item">
-						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/10.png' ?>" alt="First slide">
-					</div> -->
 
 	        <label for="carsel-5" class="carsel-control prev control-1">‹</label>
 	        <label for="carsel-2" class="carsel-control next control-1">›</label>
@@ -247,24 +217,9 @@
 	        <label for="carsel-4" class="carsel-control next control-3">›</label>
 					<label for="carsel-3" class="carsel-control prev control-4">‹</label>
 					<label for="carsel-5" class="carsel-control next control-4">›</label>
-
 					<label for="carsel-4" class="carsel-control prev control-5">‹</label>
 					<label for="carsel-1" class="carsel-control next control-5">›</label>
 
-					<!-- <label for="carsel-5" class="carsel-control prev control-6">‹</label>
-					<label for="carsel-7" class="carsel-control next control-6">›</label>
-
-					<label for="carsel-6" class="carsel-control prev control-7">‹</label>
-					<label for="carsel-8" class="carsel-control next control-7">›</label>
-
-					<label for="carsel-7" class="carsel-control prev control-8">‹</label>
-					<label for="carsel-9" class="carsel-control next control-8">›</label>
-
-					<label for="carsel-8" class="carsel-control prev control-9">‹</label>
-					<label for="carsel-10" class="carsel-control next control-9">›</label>
-
-					<label for="carsel-9" class="carsel-control prev control-10">‹</label>
-					<label for="carsel-1" class="carsel-control next control-10">›</label> -->
 	        <ol class="carsel-indicators">
 	            <li>
 	                <label for="carsel-1" class="carsel-bullet">•</label>
@@ -281,21 +236,6 @@
 							<li>
 									<label for="carsel-5" class="carsel-bullet">•</label>
 							</li>
-							<!-- <li>
-									<label for="carsel-6" class="carsel-bullet">•</label>
-							</li>
-							<li>
-									<label for="carsel-7" class="carsel-bullet">•</label>
-							</li>
-							<li>
-									<label for="carsel-8" class="carsel-bullet">•</label>
-							</li>
-							<li>
-									<label for="carsel-9" class="carsel-bullet">•</label>
-							</li>
-							<li>
-									<label for="carsel-10" class="carsel-bullet">•</label>
-							</li> -->
 
 	        </ol>
 	    </div>
@@ -311,7 +251,7 @@
 
 <div id="about"  class="bgimg-2">
 	<div class="caption">
-		<span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;"><b>ABOUT US</b> </span>
+		<span class="border" style="background-color: #0f0f0f;font-size:25px;color: #dfe0d4;border-radius: 12px;"><b>ABOUT US</b> </span>
 	</div>
 </div>
 
@@ -321,7 +261,7 @@
 	</div> -->
 
 
-<div class="pm1"style="color: #777;background-color:white;text-align:center;text-align: justify;">
+<div class="pm1"style="color:black;background-color:#dfe0d4;text-align:center;text-align: justify;">
 
 	<p><b>PYLON INTERNATIONAL TRADING</b> was founded in February 02, 1990 as a single proprietor company
 		with the purpose of importation, marketing and distribution of electro – mechanical components such as
@@ -371,33 +311,33 @@
 
 <div id="contact" class="bgimg-3">
 	<div class="caption">
-		<span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;"><b>CONTACT US</b> </span>
+		<span class="border" style="background-color: #0f0f0f;font-size:25px;color: #dfe0d4;border-radius: 12px;"><b>CONTACT US</b> </span>
 	</div>
 </div>
 
 <div style="position:relative;">
-	<div class="pm1" style="color:#ddd;background-color:#282E34;text-align:center;text-align: center;" class="text-white">
+	<div class="pm1" style="color:#ddd;background-color: #2e2e32;text-align:center;text-align: center;" class="text-white">
 <div class="row">
 <div class="col-lg-6 col-sm-12">
 
-<img height="320px" class="responsive pconta" src="<?php echo base_url().'/assets/img/mail.png'?>" alt="">
-
-</div>
-<div class="col-lg-6 col-sm-12">
-  <h3 class="text-white mt-5 pt-5">Let’s Get Started!</h3>
-  <h2><i class="fas fa-envelope"></i></h2><br>
-<h3 class="rescontact text-white  ">Pylontradingintl @gmail.com
-<br>
-0918-8928458
-
-</h3>
-</div>
+<img height="175px" class="responsive pconta" src="<?php echo base_url().'/assets/img/mail.png'?>" alt="">
 </div>
 
+		<div class="col-lg-6 col-sm-12">
+		  <h3 class="text-white">Let’s Get Started!</h3>
+		  <h2><i class="fas fa-envelope"></i></h2><br>
+		<h3 class="rescontact text-white list_projects">Pylontradingintl@gmail.com
+		<br>
+		0918-8928-458
+
+		</h3>
+		</div>
+</div>
+
 </div>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<div style="color: black;background-color:#dfe0d4;text-align:center;padding:50px 80px;text-align: justify;">
 <div class="row">
 <div class="col-lg-4 col-sm-12">
 <img src="<?php echo base_url() .'/assets/img/logo.png'?>" height="40px" alt="" srcset=""><br><b>
@@ -416,7 +356,7 @@
 </div>
 </div>
 <div style="position:relative;">
-	<div class="text-white" style="color:#ddd;background-color:#282E34;text-align:center;padding:15px 80px;text-align: center;">
+	<div class="text-white" style="color:#ddd;background-color:#232323;text-align:center;padding:15px 80px;text-align: center;">
 
   © 2019 Pylon International Trading Corporation. All rights reserved.
 

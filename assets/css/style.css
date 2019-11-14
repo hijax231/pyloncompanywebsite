@@ -1,14 +1,14 @@
 /* Create a sticky/fixed navbar */
 #navbar {
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 30px 10px; /* Large padding which will shrink on scroll (using JS) */
+    background-color: #091465;
+    padding: 15px 5px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
-  border-bottom: solid 4px rgb(56, 149, 161);
+    border-bottom: solid 5px rgb(0, 0, 0);
   }
 
   /* Style the navbar links */
@@ -20,7 +20,7 @@
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
-    border-radius: 4px;
+    border-radius: 5px;
   }
 
   /* Style the logo */
@@ -32,14 +32,14 @@
 
   /* Links on mouse-over */
   #navbar a:hover {
-    background-color: #ddd;
+    background-color: /*rgba(158, 158, 158, 0.3)*/ #bebbbb;
     color: black;
   }
 
   /* Style the active/current link */
   #navbar a.active {
-    background-color: dodgerblue;
-    color: white;
+    background-color: #212121;
+    color: #dfe0d4;
   }
 
   /* Display some links to the right */
@@ -74,10 +74,7 @@
   }
 }
 
-
-
   @media (min-width: 768px) and (max-width: 1024px) {
-
 
 
     #navbar {
@@ -86,8 +83,8 @@
     }
 
     .marginmobile{
-      padding-top: 0px !important;
-      margin-top: 0px !important;
+      padding-top: 20px !important;
+      margin-top: 20px !important;
     }
     /* #navbar a {
       float: none;
@@ -178,7 +175,7 @@
 
     .responsive {
       width: 100%;
-      max-width: 400px;
+      max-width: 300px;
       height: auto;
     }
   .btnres{
@@ -272,8 +269,8 @@ only screen and (min-device-pixel-ratio: 1.5){
 
   }
 
-
-  .caption {
+.caption
+  {
     position: absolute;
     left: 0;
     top: 50%;
@@ -282,9 +279,10 @@ only screen and (min-device-pixel-ratio: 1.5){
     color: #000;
   }
 
-  .caption span.border {
+  .caption span.border
+  {
     background-color: #111;
-    color: #fff;
+    color: black;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
@@ -300,7 +298,7 @@ only screen and (min-device-pixel-ratio: 1.5){
   #present{
 
  border: inset 20px black;
- box-shadow: 5px 10px #888888;
+ box-shadow: 5px 10px #908f8f;
  padding: 0px;
   }
 
@@ -381,7 +379,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 
   .carsel-control:hover {
       background: rgba(0, 0, 0, 0.8);
-      color: #aaaaaa;
+      color: #ff1616;
   }
 
   #carsel-1:checked ~ .control-1,
@@ -416,14 +414,14 @@ only screen and (min-device-pixel-ratio: 1.5){
   }
 
   .carsel-bullet {
-      color: #fff;
+      color: black;
       cursor: pointer;
       display: block;
       font-size: 35px;
   }
 
   .carsel-bullet:hover {
-      color: #aaaaaa;
+      color: #d77979;
   }
 
   #carsel-1:checked ~ .control-1 ~ .carsel-indicators li:nth-child(1) .carsel-bullet,
@@ -437,7 +435,7 @@ only screen and (min-device-pixel-ratio: 1.5){
   #carsel-9:checked ~ .control-9 ~ .carsel-indicators li:nth-child(9) .carsel-bullet,
   #carsel-10:checked ~ .control-10 ~ .carsel-indicators li:nth-child(10) .carsel-bullet */
   {
-      color: #428bca;
+      color: #fb0303;
   }
 
   #title {
@@ -452,3 +450,41 @@ only screen and (min-device-pixel-ratio: 1.5){
       z-index: 9999;
       text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
   }
+
+  /* button */
+.btnres {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #0099CC;
+  color: white;
+
+}
+
+.btn1:hover {
+  background-color: #33b5e5;
+  color: #033d50;
+}
+
+.btn2 {
+  background-color: /*#ff393c;*/ #2ccd61;
+  color: white;
+
+}
+
+.btn2:hover {
+  background-color: /*#eb7072; */ #71c68d;
+  color: /*#690002; */ #02581e;
+}

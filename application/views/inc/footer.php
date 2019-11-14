@@ -1,5 +1,4 @@
 
-
 </body>
 <script src="<?php print(base_url()); ?>/assets/jquery/jquery-3.4.1.min.js"></script>
 <script src="<?php print(base_url()); ?>/assets/popper/popper.min.js" ></script>
@@ -15,11 +14,11 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+  if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
     document.getElementById("navbar").style.padding = "0px 10px";
     document.getElementById("logo").style.fontSize = "25px";
   } else {
-    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("navbar").style.padding = "15px 5px";
     document.getElementById("logo").style.fontSize = "35px";
   }
 }
