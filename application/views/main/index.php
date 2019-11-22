@@ -80,7 +80,7 @@
 
 		<div   class="col-lg-6 col-sm-12 p-0 text-center mt-0 mb-0">
 			<div class="col-12 p-0">
-				<img class="pr-0 responsive pt-5" height="600px" src="<?php echo base_url().'/assets/img/pylon4.png'?>" alt="">
+				<img class="pr-0 responsive pt-5" height="550px" src="<?php echo base_url().'/assets/img/pylon4.png'?>" alt="">
 			</div>
 		</div>
 
@@ -220,6 +220,7 @@
 					<label for="carsel-4" class="carsel-control prev control-5">‹</label>
 					<label for="carsel-1" class="carsel-control next control-5">›</label>
 
+
 	        <ol class="carsel-indicators">
 	            <li>
 	                <label for="carsel-1" class="carsel-bullet">•</label>
@@ -236,7 +237,6 @@
 							<li>
 									<label for="carsel-5" class="carsel-bullet">•</label>
 							</li>
-
 	        </ol>
 	    </div>
 	</div>
