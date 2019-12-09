@@ -67,8 +67,8 @@
 
 				<div  class="col-lg-12 col-sm-12 pt-5">
 					<div class="card">
-						<div class="card-body pb-0" style="color:black;background-color:#dfe0d4;">
-							<blockquote class="blockquote " style="border: 2px solid #dfe0d4; color:black;background-color:#dfe0d4;text-align:center;text-align: justify;">
+						<div class="card-body pb-0" style="color:black;background-color: white;">
+							<blockquote class="blockquote " style="border: 2px solid black; color:black;background-color:white;text-align:center;text-align: justify;">
 								<b>"Technology made large populations possible; large populations now make technology indispensable."</b>
 								<i><br>– Joseph Wood Krutch</i>
 							</blockquote>
@@ -89,12 +89,12 @@
 <!-- </div>
 </div> -->
 
-<div id="services"  class="pm" style="color:black;background-color:#e2e2e2;text-align:center;text-align: justify;">
+<div id="services"  class="pm" style="color:black;background-color:#FFF6FF;text-align:center;text-align: justify;">
 <div class="container">
 	<div class="row">
 		<div  class="fadeIn col-lg-4 col-sm-12">
 			<div class="card">
-				<div class="card-body" style="color:black;background-color:#dfe0d4;">
+				<div class="card-body" style="color:black;background-color: white;">
 
 
 					<h3><b>Products Offered</b></h3>
@@ -135,7 +135,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-sm-12">
 					<div class="card">
-						<div class="card-body" style="color:black;background-color:#dfe0d4;">
+						<div class="card-body" style="color:black;background-color:white;">
 
 							<h3><b>Services Offered</b></h3>
 							<ul class="list-group pl-3">
@@ -151,15 +151,15 @@
 				</div>
 				<div class="col-lg-12 pt-3">
 					<div class="card">
-						<div class="card-body l1" style="color:black;background-color:#dfe0d4;">
-							<div class="col-lg-12 text-center" style="color:black;background-color:#bfbfbf;">
+						<div class="card-body l1" id="" style="color:black;background-color:white;">
+							<div class="col-lg-12 text-center" >
 								<a href="#projectslist" class="btnres btn1 btn btn-md"><i
 										class="fas fa-project-diagram text-black fa-3x"></i><br>
 									<h3 class="text-white"><b>List of Projects</b></h3>
 								</a>
 							</div>
-							<div class="col-lg-12 text-center" style="color:black;background-color:#bfbfbf;">
-								<button data-toggle="modal" data-target="#10yrs" class="btnres btn2 btn btn-md"><i
+							<div class="col-lg-12 text-center" >
+								<button data-toggle="modal" data-target="#10yrs" class="btnres btn-primary btn btn-md"><i
 										class="fas fa-glass-cheers text-black fa-3x"></i><br>
 									<h3 class="text-white"><b>Projects Last Ten Years</b></h3>
 								</button>
@@ -184,7 +184,7 @@
 </div>
 
 <div class =" marginmobile">
-	<div id=""class="pm" style="color: #777;background-color:#dfe0d4;text-align:center;text-align: justify;">
+	<div id=""class="pm" style="color: #777;background-color:#FFF6FF;text-align:center;text-align: justify;">
 
 	<div class="carsel m-auto p-3" style="color:black;background-color:white;">
 	    <div class="carsel-inner ">
@@ -261,7 +261,7 @@
 	</div> -->
 
 
-<div class="pm1"style="color:black;background-color:#dfe0d4;text-align:center;text-align: justify;">
+<div class="pm1"style="color:black;background-color:#FFF6FF;text-align:center;text-align: justify;">
 
 	<p><b>PYLON INTERNATIONAL TRADING</b> was founded in February 02, 1990 as a single proprietor company
 		with the purpose of importation, marketing and distribution of electro – mechanical components such as
@@ -337,7 +337,7 @@
 </div>
 </div>
 
-<div style="color: black;background-color:#dfe0d4;text-align:center;padding:50px 80px;text-align: justify;">
+<div style="color: black;background-color:#FFF6FF;text-align:center;padding:50px 80px;text-align: justify;">
 <div class="row">
 <div class="col-lg-4 col-sm-12">
 <img src="<?php echo base_url() .'/assets/img/logo.png'?>" height="40px" alt="" srcset=""><br><b>

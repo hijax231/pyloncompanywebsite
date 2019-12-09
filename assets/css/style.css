@@ -8,7 +8,7 @@
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
-    border-bottom: solid 5px rgb(0, 0, 0);
+    border-bottom: solid 5px #3895A1;
   }
 
   /* Style the navbar links */
@@ -32,8 +32,8 @@
 
   /* Links on mouse-over */
   #navbar a:hover {
-    background-color: /*rgba(158, 158, 158, 0.3)*/ #bebbbb;
-    color: black;
+    background-color: /*rgba(158, 158, 158, 0.3)*/ #1e90ff;
+    color:  white;
   }
 
   /* Style the active/current link */

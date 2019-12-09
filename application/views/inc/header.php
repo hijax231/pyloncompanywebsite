@@ -21,10 +21,10 @@
 
 <body>
 
-<div id="navbar" class="topnav" style="background-color:#dfe0d4;">
+<div id="navbar" class="topnav" style="background-color: #F1F1F1;">
   <a class="logoa" href="#home" ><img class="logo" src="<?php echo base_url() .'/assets/img/logo.png'?>" height="50px" alt="" srcset=""></a>
-  <div id="navbar-right" class="mt-4" style="background-color: #dfe0d4;">
-      <a class="active hidse bg-dark" href="#home">Home</a>
+  <div id="navbar-right" class="mt-3" style="">
+      <a class=" hidse" href="#home">Home</a>
       <a class="hidse" href="#services">Products and Services Offered</a>
       <a class="hidse" href="#projectslist">List of Projects</a>
       <a class="hidse" href="#about">About Us</a>
