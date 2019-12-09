@@ -89,7 +89,7 @@
 <!-- </div>
 </div> -->
 
-<div id="services"  class="pm" style="color:black;background-color:#FFF6FF;text-align:center;text-align: justify;">
+<div id="services"  class="pm" style="color:black;background-color:#F1F1F1;text-align:center;text-align: justify;">
 <div class="container">
 	<div class="row">
 		<div  class="fadeIn col-lg-4 col-sm-12">
@@ -184,7 +184,7 @@
 </div>
 
 <div class =" marginmobile">
-	<div id=""class="pm" style="color: #777;background-color:#FFF6FF;text-align:center;text-align: justify;">
+	<div id=""class="pm" style="color: #777;background-color:#F1F1F1;text-align:center;text-align: justify;">
 
 	<div class="carsel m-auto p-3" style="color:black;background-color:white;">
 	    <div class="carsel-inner ">
@@ -261,7 +261,7 @@
 	</div> -->
 
 
-<div class="pm1"style="color:black;background-color:#FFF6FF;text-align:center;text-align: justify;">
+<div class="pm1"style="color:black;background-color:#F1F1F1;text-align:center;text-align: justify;">
 
 	<p><b>PYLON INTERNATIONAL TRADING</b> was founded in February 02, 1990 as a single proprietor company
 		with the purpose of importation, marketing and distribution of electro – mechanical components such as
@@ -337,7 +337,7 @@
 </div>
 </div>
 
-<div style="color: black;background-color:#FFF6FF;text-align:center;padding:50px 80px;text-align: justify;">
+<div style="color: black;background-color:#F1F1F1;text-align:center;padding:50px 80px;text-align: justify;">
 <div class="row">
 <div class="col-lg-4 col-sm-12">
 <img src="<?php echo base_url() .'/assets/img/logo.png'?>" height="40px" alt="" srcset=""><br><b>
