@@ -266,7 +266,7 @@
 
 <div class="pm1"style="color:black;background-color:#F1F1F1;text-align:center;text-align: justify;">
 
-	<p><b>PYLON INTERNATIONAL TRADING</b> was founded in May 23, 1997 as a single proprietor company
+	<p><b>PYLON INTERNATIONAL TRADING</b> was founded in the late 80's and represented as a single proprietor company
 		with the purpose of importation, marketing and distribution of electro – mechanical components such as
 		switches, relays, synchronous motors, capacitors, contactors, POS keyboard, telephone, communication
 		equipment, press and hydraulic machinery, petrol products (gasoline hoses, nozzles, gasoline and water
@@ -274,11 +274,11 @@
 
 
 	<p>PYLON was organized to focus in developing and sourcing of alternative products that could be of
-		help to the growth of the export segment in the Philippine industry.
+		help to the growth and competetiveness of the export segment in the Philippine industry.
 	</p>
 
 	<p>PYLON as its main line is, supplying electronic components and parts to big appliance manufacturers in
-		the Philippines. Through the years, the company expanded and that on August 15, 1997, PYLON
+		the Philippines. Through the years, PYLON expanded and that on May 23,1997 , PYLON
 		INTERNATIONAL TRADING CORPORATION (PITC) was incorporated.</p>
 
 
@@ -295,8 +295,8 @@
 	</p>
 
 
-	<p>PITC at present has deployed twenty five (25) elearning laboratories, More Than 100 stand alone classroom
-		connectivity solutions, a Revenue Tax collection system, Hospital System and a Local Civil
+	<p>PITC at present has deployed one hundred five (105) elearning laboratories, More Than 100 stand alone classroom ,
+		Science laboratory, a Revenue Tax collection system, Hospital System and a Local Civil
 		Registry System.
 
 	</p>
