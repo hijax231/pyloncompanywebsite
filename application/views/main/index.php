@@ -205,23 +205,31 @@
 					</div>
 					<input class="carsel-open" type="radio" id="carsel-4" name="carsel" aria-hidden="true" hidden="" checked="checked">
 					<div class="carsel-item">
-						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/4.png' ?>" alt="First slide">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/3_page2.png' ?>" alt="First slide">
 					</div>
 					<input class="carsel-open" type="radio" id="carsel-5" name="carsel" aria-hidden="true" hidden="" checked="checked">
+					<div class="carsel-item">
+						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/4.png' ?>" alt="First slide">
+					</div>
+					<input class="carsel-open" type="radio" id="carsel-6" name="carsel" aria-hidden="true" hidden="" checked="checked">
 					<div class="carsel-item">
 						<img class="m-auto" src="<?php echo base_url().'/assets/img/proj_list/5.png' ?>" alt="First slide">
 					</div>
 
-	        <label for="carsel-5" class="carsel-control prev control-1">‹</label>
+					
+					
+	        <label for="carsel-6" class="carsel-control prev control-1">‹</label>
 	        <label for="carsel-2" class="carsel-control next control-1">›</label>
 	        <label for="carsel-1" class="carsel-control prev control-2">‹</label>
 	        <label for="carsel-3" class="carsel-control next control-2">›</label>
 	        <label for="carsel-2" class="carsel-control prev control-3">‹</label>
 	        <label for="carsel-4" class="carsel-control next control-3">›</label>
-					<label for="carsel-3" class="carsel-control prev control-4">‹</label>
-					<label for="carsel-5" class="carsel-control next control-4">›</label>
-					<label for="carsel-4" class="carsel-control prev control-5">‹</label>
-					<label for="carsel-1" class="carsel-control next control-5">›</label>
+			<label for="carsel-3" class="carsel-control prev control-4">‹</label>
+			<label for="carsel-5" class="carsel-control next control-4">›</label>
+			<label for="carsel-4" class="carsel-control prev control-5">‹</label>
+			<label for="carsel-6" class="carsel-control next control-5">›</label>
+			<label for="carsel-5" class="carsel-control prev control-6">‹</label>
+			<label for="carsel-1" class="carsel-control next control-6">›</label>
 
 
 	        <ol class="carsel-indicators">
@@ -239,6 +247,9 @@
 							</li>
 							<li>
 									<label for="carsel-5" class="carsel-bullet">•</label>
+							</li>
+							<li>
+									<label for="carsel-6" class="carsel-bullet">•</label>
 							</li>
 	        </ol>
 	    </div>
