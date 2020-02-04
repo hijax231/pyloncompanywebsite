@@ -106,13 +106,15 @@
 						<li class="">LGU – O.R. Manager</li>
 						<li class="">Local Civil Registry System</li>
 						<li class="">School Management System</li>
-						<li>eLearning Solution for Elementary Level</li>
-						<li>eLearning Solution for Secondary Level</li>
-						<li>Document Archiving, Digitizing and Indexing</li>
+						<li> eLearning Solution for Elementary Level</li>
+						<li> eLearning Solution for Secondary Level</li>
+						<li> Document Archiving, Digitizing and Indexing</li>
 						<li> Stand Alone eLearning</li>
 						<li> Electronic Switches/Lights</li>
 						<li> Street Lights and Signages</li>
+						<li> Solar Street Lights</li>
 						<li> Aircon Units and Parts</li>
+						<li> Weather Solution and Equipments</li>
 						<li> IT Products (Interactive Whiteboard)</li>
 						<li> Office Equipments</li>
 						<li> Sports Equipment</li>
@@ -123,6 +125,7 @@
 						<li> Inventory System</li>
 						<li> Human Resource Management System</li>
 						<li> ID/Attendance Monitoring System</li>
+						<li> eISO</li>
 					</ul>
 				</div>
 			</div>
@@ -263,7 +266,7 @@
 
 <div class="pm1"style="color:black;background-color:#F1F1F1;text-align:center;text-align: justify;">
 
-	<p><b>PYLON INTERNATIONAL TRADING</b> was founded in February 02, 1990 as a single proprietor company
+	<p><b>PYLON INTERNATIONAL TRADING</b> was founded in May 23, 1997 as a single proprietor company
 		with the purpose of importation, marketing and distribution of electro – mechanical components such as
 		switches, relays, synchronous motors, capacitors, contactors, POS keyboard, telephone, communication
 		equipment, press and hydraulic machinery, petrol products (gasoline hoses, nozzles, gasoline and water
@@ -292,7 +295,7 @@
 	</p>
 
 
-	<p>PITC at present has deployed twenty five (25) elearning laboratories, thirty four (34) classroom
+	<p>PITC at present has deployed twenty five (25) elearning laboratories, More Than 100 stand alone classroom
 		connectivity solutions, a Revenue Tax collection system, Hospital System and a Local Civil
 		Registry System.
 
