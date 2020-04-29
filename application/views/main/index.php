@@ -6,6 +6,33 @@
 
 <div class="bgimg-1">
 	<div class="row pt-5">
+		<div class="col-lg-6 col-sm-6  p-5 pt-5">
+			<div>
+				<div class="card" style="width: 40rem; height: 32rem;">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-sm-6  p-5 pt-5">
+			<h2 class="text-center card-title pt-5">Download Now!</h5>
+			<p class="card-text">Download the apk for android device</p>
+			  <div class="form-group">
+				<label for="exampleFormControlSelect1">Select City</label>
+				<select class="form-control" id="exampleFormControlSelect1">
+				<option>1</option>
+				<option>2</option>
+				<option value="taytay">Taytay, Rizal</option>
+				<option>4</option>
+				<option>5</option>
+				</select>
+			</div>
+			<img height="150px" class="rounded mx-auto d-block img-fluid responsive" id="apkdown" src="<?php echo base_url().'/assets/img/download-apk.png' ?>" alt="">
+		</div>
+
 		<div class="col-lg-6 col-sm-12  p-5 pt-5">
 
 			<div class="row">
@@ -431,3 +458,18 @@
 		</div>
 	</div>
 </div>
+
+
+
+<script>
+$(document).ready(function(){
+    $('#apkdown').hide(); 
+    $('option').change(function(){
+        if($('option').val() == 'taytay') {
+            $('#apkdown').show(); 
+        } else {
+            $('#apkdown').hide(); 
+        } 
+	});
+});
+</script>
