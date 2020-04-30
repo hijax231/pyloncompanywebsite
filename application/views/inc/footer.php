@@ -22,7 +22,7 @@ $(document).ready(function () {
 $('#sendemailnow').submit(function (e) { 
 e.preventDefault();
 
-console.log($('#sendemailnow').serializeArray());
+console.log($('#sendemailnow').serialize());
 
 $.ajax({
   type: "POST",

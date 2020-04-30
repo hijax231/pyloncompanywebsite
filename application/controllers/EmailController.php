@@ -19,7 +19,7 @@ class EmailController extends CI_Controller {
 
         $email = $this->input->post('email');
 
-        return json_encode($email);
+        echo  json_encode($email[0]->Fullname);
 //SMTP & mail configuration
 
 // $config['protocol']    = 'smtp';
@@ -59,6 +59,6 @@ $this->email->subject('How to send email via Gmail SMTP server in CodeIgniter');
 $this->email->message($htmlContent);
  
 //Send email
-return $this->email->send();
+$this->email->send();
     }
 }
