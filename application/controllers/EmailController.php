@@ -17,7 +17,9 @@ class EmailController extends CI_Controller {
     function send() {
 
 
- 
+        $email = $this->input->post('email');
+
+        return json_encode($email);
 //SMTP & mail configuration
 
 // $config['protocol']    = 'smtp';

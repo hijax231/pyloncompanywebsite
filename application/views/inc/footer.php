@@ -22,16 +22,27 @@ $(document).ready(function () {
 $('#sendemailnow').submit(function (e) { 
 e.preventDefault();
 
+console.log($('#sendemailnow').serializeArray());
 
+$.ajax({
+  type: "POST",
+  url: "http://localhost:800/EmailController/send",
+  data: $('#sendemailnow').serialize(),
+  dataType: "json",
+  success: function (res) {
+          console.log(res)
+      Swal.fire({
+      title: 'Email Sent!',
+      text: 'Thank you for writing to us.We will get back to you within 48 hours.',
+      icon: 'success',
+      confirmButtonText: 'Ok'
+      })
+  },
+  error: function (xhr) {
+                console.log(xhr.responseText);
+            }
+});
 
-
-
-Swal.fire({
-title: 'Email Sent!',
-text: 'Thank you for writing to us.We will get back to you within 48 hours.',
-icon: 'success',
-confirmButtonText: 'Ok'
-})
 
  $('#emailmodal').modal('hide')
 

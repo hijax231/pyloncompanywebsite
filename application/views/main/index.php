@@ -651,36 +651,44 @@
 
 
 				</div>
-
+				<form id="sendemailnow">
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="text" id="form1" class="form-control">
-  <label for="form1">Full Name</label>
-</div>
-</div>
-
-<div class="col-12">
-<!-- Material input -->
-<div class="md-form">
-  <input type="text" id="form1" class="form-control">
-  <label for="form1">Position</label>
+  <input type="text" id="Full" class="form-control" required name="email['Fullname']">
+  <label for="Full">Full Name</label>
 </div>
 </div>
 
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="text" id="form1" class="form-control">
-  <label for="form1">Email</label>
+  <input type="text" id="Position" class="form-control"  name="email['Position']">
+  <label for="Position">Position</label>
 </div>
 </div>
 
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="text" id="form1" class="form-control">
-  <label for="form1">Contact Number</label>
+  <input type="text" id="Address" class="form-control" required name="email['Address']">
+  <label for="Address">Address</label>
+</div>
+</div>
+
+<div class="col-12">
+<!-- Material input -->
+<div class="md-form">
+  <input type="email" id="Email" class="form-control" required name="email['Email']">
+  <label for="Email">Email</label>
+</div>
+</div>
+
+<div class="col-12">
+<!-- Material input -->
+<div class="md-form">
+  <input type="text" id="Contact" class="form-control" required name="email['Contact']">
+  <label for="Contact">Contact Number</label>
 </div>
 </div>
 			
@@ -693,13 +701,13 @@
 <!--Textarea with icon prefix-->
 <div class="md-form">
   <i class="fas fa-pencil-alt prefix"></i>
-  <textarea id="form10" class="md-textarea form-control" rows="3"></textarea>
-  <label for="form10">Message</label>
+  <textarea id="Message" class="md-textarea form-control" required  name="email['Message']" rows="3"></textarea>
+  <label for="Message">Message</label>
 </div>
 
 </div>
 
-<form id="sendemailnow">
+
 <div class="col-12">
 
 <button type="submit" name="" id="" class="btn round btn-primary btn-lg btn-block"><i class="fa fa-envelope" aria-hidden="true"></i>  Send</button>
