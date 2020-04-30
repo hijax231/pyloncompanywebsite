@@ -52,7 +52,7 @@ $htmlContent = '<h1>Sending email via Gmail SMTP server</h1>';
 $htmlContent .= '<p>This email has sent via Gmail SMTP server from CodeIgniter application.</p>';
  
 $this->email->to('pasajol231@gmail.com');
-$this->email->from('quarantinesanpablolaguna@gmail.com','MyWebsite');
+$this->email->from('pylondev10@pyloninternationals.com','Pylon International Trading Corp.');
 $this->email->subject('How to send email via Gmail SMTP server in CodeIgniter');
 $this->email->message($htmlContent);
  
