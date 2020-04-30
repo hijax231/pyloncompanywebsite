@@ -52,7 +52,7 @@
 
 
 
-						<div class="col-12 pt-5">
+						<div class="col-12 pt-5 pb-5">
 
 							<div class="row">
 
@@ -63,7 +63,7 @@
 											<p class="h2 ">Frequently Asked Questions</p>
 											<p class="text-muted">Get to know E-Quarantine Pass inside and out!</p>
 											<a href="<?php echo base_url().'/assets/img/faq/faq.pdf' ?>" target="_blank"
-												class="btn round  btn-primary btn-lg btn-block">Click here!</a>
+												class="btn round font-weight-bold  btn-primary btn-lg btn-block">Click here!</a>
 
 										</div>
 										<div class="col-lg-6 ">
@@ -77,9 +77,29 @@
 								</div>
 
 
-								<div class="col-lg-6 col-sm-12">
+								<div class="col-lg-6 col-sm-12 ">
 
 
+
+								<div class="row">
+
+<div class="col-lg-6">
+
+<img src="<?php echo base_url().'/assets/img/undraw_pull_request_gld8.svg'?>"
+												class="d-xl-block d-md-none d-none d-lg-block d-xl-none"
+												style="width: 100%" alt="">
+
+</div>
+
+						<div class="col-lg-6 text-center">
+									<p class="h2 ">Want your own E-Quarantine App? </p>
+											<p class="text-muted">If you have any further questions or concerns, Please click the button below</p>
+											<button type="button" onclick="openemail()"
+												class="btn round font-weight-bold  btn-red btn-lg btn-block">LETS TALK!</button>
+
+
+</div>
+								</div>
 
 
 
@@ -97,7 +117,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+
 
 
 	<div class="col-lg-6 col-sm-12  p-5 pt-5">
@@ -594,3 +614,101 @@
 	</div>
 </div>
 <!-- Side Modal Top Right -->
+
+
+
+
+<!-- Side Modal Top Right -->
+
+<!-- Button trigger modal -->
+
+
+<!-- To change the direction of the modal animation change .right class -->
+<div class="modal fade right" id="emailmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+	aria-hidden="true">
+
+
+
+
+
+	<!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+	<div class="modal-dialog modal-top-right" role="document">
+
+
+		<div class="modal-content">
+			<div class="modal-header bg-danger text-white">
+				<h4 class="modal-title w-100" id="myModalLabel"> <i class="fa fa-envelope" aria-hidden="true"></i>
+					Email Us</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+
+				<div class="col-12 text-center text-danger">
+
+					<i class=" fas fa-envelope fa-4x mb-3 animated rotateIn"></i>
+
+
+				</div>
+
+<div class="col-12">
+<!-- Material input -->
+<div class="md-form">
+  <input type="text" id="form1" class="form-control">
+  <label for="form1">Full Name</label>
+</div>
+</div>
+
+<div class="col-12">
+<!-- Material input -->
+<div class="md-form">
+  <input type="text" id="form1" class="form-control">
+  <label for="form1">Position</label>
+</div>
+</div>
+
+<div class="col-12">
+<!-- Material input -->
+<div class="md-form">
+  <input type="text" id="form1" class="form-control">
+  <label for="form1">Email</label>
+</div>
+</div>
+
+<div class="col-12">
+<!-- Material input -->
+<div class="md-form">
+  <input type="text" id="form1" class="form-control">
+  <label for="form1">Contact Number</label>
+</div>
+</div>
+			
+
+
+
+<div class="col-12">
+
+
+<!--Textarea with icon prefix-->
+<div class="md-form">
+  <i class="fas fa-pencil-alt prefix"></i>
+  <textarea id="form10" class="md-textarea form-control" rows="3"></textarea>
+  <label for="form10">Message</label>
+</div>
+
+</div>
+
+<form id="sendemailnow">
+<div class="col-12">
+
+<button type="submit" name="" id="" class="btn round btn-primary btn-lg btn-block"><i class="fa fa-envelope" aria-hidden="true"></i>  Send</button>
+</div>
+</form>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- Side Modal Top Right -->
+
