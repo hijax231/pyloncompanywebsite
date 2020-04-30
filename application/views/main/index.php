@@ -5,19 +5,21 @@
 	<div class="row pt-5">
 		<div class="col-lg-12 col-md-12 col-sm-12  ">
 			<div id="vidohandler" class="col-12 p-5">
-				<div class="card text-left">
+				<div class="card round text-left">
+
 					<img class="card-img-top" src="holder.js/100px180/" alt="">
 					<div class="card-body ">
 						<div class="row">
 							<div class="col-lg-6 col-sm-12 d-none d-sm-block">
 
-							<img src="<?php echo base_url().'/assets/img/undraw_mobile_development_8gyo.svg'?>"
-								style="width: 100%" alt="">
+								<img src="<?php echo base_url().'/assets/img/undraw_mobile_development_8gyo.svg'?>"
+									style="width: 100%" alt="">
 							</div>
 							<div class="col-lg-6 col-sm-12  ">
 								<h2 class="text-center card-title pt-5">Electronic Quarantine Pass Application</h5>
-									<p class="text-muted"> An Android Application for requesting a scheduled quarantine pass for the
-residents of specific LGU system users. </p>
+									<p class="text-muted"> An Android Application for requesting a scheduled quarantine
+										pass for the
+										residents of specific LGU system users. </p>
 									<img height="230px" class="rounded mx-auto d-block img-fluid responsive"
 										id="apkdown" src="<?php echo base_url().'/assets/img/download-apk.png' ?>"
 										onclick="showdownloadmodal()" alt="">
@@ -33,7 +35,7 @@ residents of specific LGU system users. </p>
 
 						</div>
 
-						<div class="col-lg-12 col-sm-12 text-center p-0 pt-5 pb-1">
+						<div class="col-lg-12 col-sm-12 text-center p-0 pt-5 pb-3">
 
 
 							<p class="h4 font-weight-bold ">How Electronic Quarantine Pass works?</p>
@@ -45,96 +47,140 @@ residents of specific LGU system users. </p>
 								Your browser does not support the video tag.
 							</video>
 
+						</div>
 
+
+
+
+						<div class="col-12 pt-5">
+
+							<div class="row">
+
+								<div class="col-lg-6 col-sm-12 ">
+									<div class="row">
+
+										<div class="col-lg-6 text-center">
+											<p class="h2 ">Frequently Asked Questions</p>
+											<p class="text-muted">Get to know E-Quarantine Pass inside and out!</p>
+											<a href="<?php echo base_url().'/assets/img/faq/faq.pdf' ?>" target="_blank"
+												class="btn round  btn-primary btn-lg btn-block">Click here!</a>
+
+										</div>
+										<div class="col-lg-6 ">
+											<img src="<?php echo base_url().'/assets/img/undraw_questions_75e0.svg'?>"
+												class="d-xl-block d-md-none d-none d-lg-block d-xl-none"
+												style="width: 100%" alt="">
+										</div>
+									</div>
+
+
+								</div>
+
+
+								<div class="col-lg-6 col-sm-12">
+
+
+
+
+
+								</div>
+
+
+
+
+
+							</div>
 
 						</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
-
-
-		<div class="col-lg-6 col-sm-12  p-5 pt-5">
-			<div class="row">
-				<div id="present" class="col-lg-12 col-sm-12">
-					<!--Carousel Wrapper-->
-					<div id="carousel-example-1z" class="p-0 carousel slide carousel-fade" data-ride="carousel">
-						<!--Indicators-->
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-1z" data-slide-to="1"></li>
-							<li data-target="#carousel-example-1z" data-slide-to="2"></li>
-						</ol>
-						<!--/.Indicators-->
-						<!--Slides-->
-						<div class="carousel-inner" role="listbox">
-							<!--First slide-->
-							<div class="carousel-item active">
-								<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/lcr.png' ?>"
-									alt="First slide">
-							</div>
-							<!--/First slide-->
-							<!--Second slide-->
-							<div class="carousel-item">
-								<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/spc.png' ?>"
-									alt="Second slide">
-							</div>
-							<!--/Second slide-->
-							<!--Third slide-->
-							<div class="carousel-item">
-								<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/ebpls.png' ?>"
-									alt="Third slide">
-							</div>
-
-							<div class="carousel-item">
-								<img class="d-block w-100   h-50"
-									src="<?php echo base_url().'/assets/img/caru/phones.jpg' ?>" alt="Third slide">
-							</div>
-
-							<div class="carousel-item">
-								<img class="d-block w-100   h-50"
-									src="<?php echo base_url().'/assets/img/caru/hr.png' ?>" alt="Third slide">
-							</div>
-
-						</div>
-						<!--/.Slides-->
-						<!--Controls-->
-						<a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-						<!--/.Controls-->
-					</div>
-					<!--/.Carousel Wrapper-->
-				</div>
-
-				<div class="col-lg-12 col-sm-12 pt-5">
-					<div class="card">
-						<div class="card-body pb-0" style="color:black;background-color: white;">
-							<blockquote class="blockquote "
-								style="border: 2px solid black; color:black;background-color:white;text-align:center;text-align: justify;">
-								<b>"Technology made large populations possible; large populations now make technology
-									indispensable."</b>
-								<i><br>– Joseph Wood Krutch</i>
-							</blockquote>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-lg-6 col-sm-12 p-0 text-center mt-0 mb-0">
-			<div class="col-12 p-0">
-				<img class="pr-0 responsive pt-5" height="550px" src="<?php echo base_url().'/assets/img/pylon4.png'?>"
-					alt="">
-			</div>
-		</div>
-
 	</div>
+
+
+	<div class="col-lg-6 col-sm-12  p-5 pt-5">
+		<div class="row">
+			<div id="present" class="col-lg-12 col-sm-12">
+				<!--Carousel Wrapper-->
+				<div id="carousel-example-1z" class="p-0 carousel slide carousel-fade" data-ride="carousel">
+					<!--Indicators-->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-1z" data-slide-to="1"></li>
+						<li data-target="#carousel-example-1z" data-slide-to="2"></li>
+					</ol>
+					<!--/.Indicators-->
+					<!--Slides-->
+					<div class="carousel-inner" role="listbox">
+						<!--First slide-->
+						<div class="carousel-item active">
+							<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/lcr.png' ?>"
+								alt="First slide">
+						</div>
+						<!--/First slide-->
+						<!--Second slide-->
+						<div class="carousel-item">
+							<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/spc.png' ?>"
+								alt="Second slide">
+						</div>
+						<!--/Second slide-->
+						<!--Third slide-->
+						<div class="carousel-item">
+							<img class="d-block w-100 " src="<?php echo base_url().'/assets/img/caru/ebpls.png' ?>"
+								alt="Third slide">
+						</div>
+
+						<div class="carousel-item">
+							<img class="d-block w-100   h-50"
+								src="<?php echo base_url().'/assets/img/caru/phones.jpg' ?>" alt="Third slide">
+						</div>
+
+						<div class="carousel-item">
+							<img class="d-block w-100   h-50" src="<?php echo base_url().'/assets/img/caru/hr.png' ?>"
+								alt="Third slide">
+						</div>
+
+					</div>
+					<!--/.Slides-->
+					<!--Controls-->
+					<a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					<!--/.Controls-->
+				</div>
+				<!--/.Carousel Wrapper-->
+			</div>
+
+			<div class="col-lg-12 col-sm-12 pt-5">
+				<div class="card">
+					<div class="card-body pb-0" style="color:black;background-color: white;">
+						<blockquote class="blockquote "
+							style="border: 2px solid black; color:black;background-color:white;text-align:center;text-align: justify;">
+							<b>"Technology made large populations possible; large populations now make technology
+								indispensable."</b>
+							<i><br>– Joseph Wood Krutch</i>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-6 col-sm-12 p-0 text-center mt-0 mb-0">
+		<div class="col-12 p-0">
+			<img class="pr-0 responsive pt-5" height="550px" src="<?php echo base_url().'/assets/img/pylon4.png'?>"
+				alt="">
+		</div>
+	</div>
+
+</div>
 </div>
 <!-- </div>
 </div> -->
@@ -507,39 +553,44 @@ residents of specific LGU system users. </p>
 
 <!-- To change the direction of the modal animation change .right class -->
 <div class="modal fade right" id="downloadsidemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
+	aria-hidden="true">
 
-  <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
-  <div class="modal-dialog modal-side modal-top-right" role="document">
-
-
-    <div class="modal-content">
-      <div class="modal-header bg-success text-white">
-        <h4 class="modal-title w-100" id="myModalLabel"> <i class="fa fa-download" aria-hidden="true"></i> Download</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-
-	  <div class="col-12 text-center text-success">
-
-	  <i class=" fas fa-download fa-4x mb-3 animated rotateIn"></i>
+	<!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+	<div class="modal-dialog modal-side modal-top-right" role="document">
 
 
-	  </div>
-	
+		<div class="modal-content">
+			<div class="modal-header bg-success text-white">
+				<h4 class="modal-title w-100" id="myModalLabel"> <i class="fa fa-download" aria-hidden="true"></i>
+					Download</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
 
-	  <ul class="list-group font-weight-normal">
-  <li class="list-group-item font-weight-bold bg-primary text-white">TAYTAY</li>
-  <li class="list-group-item"> <a   href="<?php echo base_url().'/assets/APPLICATIONS/QPTAYTAY/TAYTAY_QP_MAIN_APP_V1.apk'?>" download>TAYTAY_QP_MAIN_APP_v1.apk</a></li>
-  <li class="list-group-item"> <a   href="<?php echo base_url().'/assets/APPLICATIONS/QPTAYTAY/TAYTAY_QP_SCANNER_APP_V1.apk'?>" download>TAYTAY_QP_SCANNER_APP_v1.apk</a></li>
-</ul>
+				<div class="col-12 text-center text-success">
+
+					<i class=" fas fa-download fa-4x mb-3 animated rotateIn"></i>
 
 
-      </div>
-     
-    </div>
-  </div>
+				</div>
+
+
+				<ul class="list-group font-weight-normal">
+					<li class="list-group-item font-weight-bold bg-primary text-white">TAYTAY</li>
+					<li class="list-group-item"> <a
+							href="<?php echo base_url().'/assets/APPLICATIONS/QPTAYTAY/TAYTAY_QP_MAIN_APP_V1.apk'?>"
+							download>TAYTAY_QP_MAIN_APP_v1.apk</a></li>
+					<li class="list-group-item"> <a
+							href="<?php echo base_url().'/assets/APPLICATIONS/QPTAYTAY/TAYTAY_QP_SCANNER_APP_V1.apk'?>"
+							download>TAYTAY_QP_SCANNER_APP_v1.apk</a></li>
+				</ul>
+
+
+			</div>
+
+		</div>
+	</div>
 </div>
 <!-- Side Modal Top Right -->
