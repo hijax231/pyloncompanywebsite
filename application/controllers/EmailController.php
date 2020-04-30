@@ -34,10 +34,10 @@ class EmailController extends CI_Controller {
 
 
 $config = Array(
-    'protocol' => 'smtp',
-    'smtp_host' => 'smtp.gmail.com',
-    'smtp_port' => 465 ,
-    'smtp_user' => 'quarantinesanpablolaguna@gmail.com',
+    'protocol' => 'mail',
+    'smtp_host' => 'mail.pyloninternationals.com',
+    'smtp_port' => 587 ,
+    'smtp_user' => 'pylondev10@pyloninternationals.com',
     'smtp_pass' => 'ITpylon@dmin10',
     'mailtype'  => 'html', 
     'charset'   => 'iso-8859-1'
