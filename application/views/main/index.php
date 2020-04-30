@@ -655,7 +655,7 @@
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="text" id="Full" class="form-control" required name="email['Fullname']">
+  <input type="text" id="Full" class="form-control" required name="fullname">
   <label for="Full">Full Name</label>
 </div>
 </div>
@@ -663,7 +663,7 @@
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="text" id="Position" class="form-control"  name="email['Position']">
+  <input type="text" id="Position" class="form-control"  name="position">
   <label for="Position">Position</label>
 </div>
 </div>
@@ -671,7 +671,7 @@
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="text" id="Address" class="form-control" required name="email['Address']">
+  <input type="text" id="Address" class="form-control" required name="address">
   <label for="Address">Address</label>
 </div>
 </div>
@@ -679,7 +679,7 @@
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="email" id="Email" class="form-control" required name="email['Email']">
+  <input type="email" id="Email" class="form-control" required name="email">
   <label for="Email">Email</label>
 </div>
 </div>
@@ -687,7 +687,7 @@
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="text" id="Contact" class="form-control" required name="email['Contact']">
+  <input type="text" id="Contact" class="form-control" required name="Contact">
   <label for="Contact">Contact Number</label>
 </div>
 </div>
@@ -701,7 +701,7 @@
 <!--Textarea with icon prefix-->
 <div class="md-form">
   <i class="fas fa-pencil-alt prefix"></i>
-  <textarea id="Message" class="md-textarea form-control" required  name="email['Message']" rows="3"></textarea>
+  <textarea id="Message" class="md-textarea form-control" required  name="message" rows="3"></textarea>
   <label for="Message">Message</label>
 </div>
 

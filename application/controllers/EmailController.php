@@ -14,12 +14,20 @@ class EmailController extends CI_Controller {
         $this->load->view('email/contact');
     }
 
-    function send() {
+    public function send() {
 
 
-        $email = $this->input->post('email');
+      $data = [
+            "fullname" => $this->input->post('full_name'),
+            "position" => $this->input->post('position'),
+            "address" => $this->input->post('address'),
+            "email" => $this->input->post('email'),
+            "contact" => $this->input->post('contact'),
+            "message" => $this->input->post('message'),
+      ];
 
-        echo  json_encode($email[0]->Fullname);
+      echo json_encode($data);
+    }
 //SMTP & mail configuration
 
 // $config['protocol']    = 'smtp';
@@ -35,30 +43,30 @@ class EmailController extends CI_Controller {
 
 
 
-$config = Array(
-    'protocol' => 'mail',
-    'smtp_host' => 'mail.pyloninternationals.com',
-    'smtp_port' => 587 ,
-    'smtp_user' => 'pylondev10@pyloninternationals.com',
-    'smtp_pass' => 'ITpylon@dmin10',
-    'mailtype'  => 'html', 
-    'charset'   => 'iso-8859-1'
-);
+// $config = Array(
+//     'protocol' => 'mail',
+//     'smtp_host' => 'mail.pyloninternationals.com',
+//     'smtp_port' => 587 ,
+//     'smtp_user' => 'pylondev10@pyloninternationals.com',
+//     'smtp_pass' => 'ITpylon@dmin10',
+//     'mailtype'  => 'html', 
+//     'charset'   => 'iso-8859-1'
+// );
 
 
-$this->load->library('email', $config);
-$this->email->set_newline("\r\n");
+// $this->load->library('email', $config);
+// $this->email->set_newline("\r\n");
  
-//Email content
-$htmlContent = '<h1>Sending email via Gmail SMTP server</h1>';
-$htmlContent .= '<p>This email has sent via Gmail SMTP server from CodeIgniter application.</p>';
+// //Email content
+// $htmlContent = '<h1>Sending email via Gmail SMTP server</h1>';
+// $htmlContent .= '<p>This email has sent via Gmail SMTP server from CodeIgniter application.</p>';
  
-$this->email->to('pasajol231@gmail.com');
-$this->email->from('pylondev10@pyloninternationals.com','Pylon International Trading Corp.');
-$this->email->subject('How to send email via Gmail SMTP server in CodeIgniter');
-$this->email->message($htmlContent);
+// $this->email->to('pasajol231@gmail.com');
+// $this->email->from('pylondev10@pyloninternationals.com','Pylon International Trading Corp.');
+// $this->email->subject('How to send email via Gmail SMTP server in CodeIgniter');
+// $this->email->message($htmlContent);
  
-//Send email
-$this->email->send();
-    }
+// //Send email
+// $this->email->send();
+    
 }
