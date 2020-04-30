@@ -11,24 +11,23 @@
 						<div class="row">
 							<div class="col-lg-6 col-sm-12 d-none d-sm-block">
 
-								<img src="<?php echo base_url().'/assets/img/undraw_mobile_development_8gyo.svg'?>"
+							<img src="<?php echo base_url().'/assets/img/undraw_mobile_development_8gyo.svg'?>"
 								style="width: 100%" alt="">
 							</div>
-							<div class="col-lg-6 col-sm-12 ">
+							<div class="col-lg-6 col-sm-12  ">
 								<h2 class="text-center card-title pt-5">Electronic Quarantine Pass Application</h5>
-									<p class="text-muted "> &nbsp; &nbsp; &nbsp; &nbsp; An Android Application for requesting a scheduled quarantine pass for the
-residents of specific LGU system users. Simply register by filling-up the forms
-and direct login, the user now can request and get their generated Q.R. Code
-that will serve as electronic quarantine pass. </p>
+									<p class="text-muted"> An Android Application for requesting a scheduled quarantine pass for the
+residents of specific LGU system users. </p>
 									<img height="230px" class="rounded mx-auto d-block img-fluid responsive"
 										id="apkdown" src="<?php echo base_url().'/assets/img/download-apk.png' ?>"
 										onclick="showdownloadmodal()" alt="">
-									<div class="col-12 text-center">
+									<div class="col-12 text-center pt-3">
 										<p class="h4 font-weight-bold">COMING SOON</p>
 										<img src="<?php echo base_url().'/assets/img/commingsoonhorizontaol.png' ?>"
 											style="width: 70%" alt="">
 									</div>
 							</div>
+
 
 
 
