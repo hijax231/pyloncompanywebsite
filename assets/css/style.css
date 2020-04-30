@@ -74,9 +74,27 @@
   }
 }
 
+
+#videoquarantine{
+
+  width: 50%    !important;
+  height: auto   !important;
+
+}
+
   @media (min-width: 768px) and (max-width: 1024px) {
 
+#vidohandler{
 
+  padding: 0 !important;
+}
+
+    #videoquarantine{
+      width: 100%    !important;
+      height: auto   !important;
+ 
+    }
+    
     #navbar {
       padding: 0px 0px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
 
@@ -114,7 +132,16 @@
     height: 400px;
   }
 
+  #videoquarantine{
+    width: 100%    !important;
+    height: auto   !important;
 
+  }
+
+  #vidohandler{
+
+    padding: 0 !important;
+  }
   .resizeimgcarsel{
     width: 100%;
     height:100%;
@@ -312,6 +339,12 @@ only screen and (min-device-pixel-ratio: 1.5){
       width: 800px;
       /* height: 800px; */
     }
+
+
+
+
+    
+    
   }
 
 
@@ -492,3 +525,5 @@ only screen and (min-device-pixel-ratio: 1.5){
   background-color: /*#eb7072; */ #71c68d;
   color: /*#690002; */ #02581e;
 }
+
+

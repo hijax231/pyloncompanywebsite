@@ -6,6 +6,7 @@
 <script src="<?php print(base_url()); ?>/assets/MBD/js/mdb.min.js" ></script>
 <script src="<?php print(base_url()); ?>/assets/MBD/js/addons/datatables.min.js "></script>
 <script src="<?php print(base_url()); ?>/assets/MBD/js/addons/datatables-select.min.js "></script>
+<script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
 </script>
 <script>
 
@@ -31,6 +32,11 @@ jarallax(document.querySelectorAll('.jarallax'));
 jarallax(document.querySelectorAll('.jarallax-keep-img'), {
     keepImg: true,
 });
+
+
+function showdownloadmodal(){
+$('#downloadsidemodal').modal('show')
+}
 
 
 </script>
