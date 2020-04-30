@@ -57,6 +57,6 @@ $this->email->subject('How to send email via Gmail SMTP server in CodeIgniter');
 $this->email->message($htmlContent);
  
 //Send email
-$this->email->send();
+return $this->email->send();
     }
 }
