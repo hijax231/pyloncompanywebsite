@@ -18,7 +18,7 @@ class EmailController extends CI_Controller {
 
 
       $data = [
-            "fullname" => $this->input->post('full_name'),
+            "fullname" => $this->input->post('fullname'),
             "position" => $this->input->post('position'),
             "address" => $this->input->post('address'),
             "email" => $this->input->post('email'),

@@ -687,7 +687,7 @@
 <div class="col-12">
 <!-- Material input -->
 <div class="md-form">
-  <input type="text" id="Contact" class="form-control" required name="Contact">
+  <input type="text" id="Contact" class="form-control" required name="contact">
   <label for="Contact">Contact Number</label>
 </div>
 </div>
