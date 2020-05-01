@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('Asia/Manila');
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class EmailController extends CI_Controller {
