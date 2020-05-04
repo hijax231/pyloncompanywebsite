@@ -26,20 +26,9 @@ class EmailController extends CI_Controller {
             "message" => $this->input->post('message'),
       ];
 
-      echo json_encode($data);
 
-// SMTP & mail configuration
 
-$config['protocol']    = 'smtp';
-$config['smtp_host']    = 'smtp.gmail.com';
-$config['smtp_port']    = '465';
-$config['smtp_timeout'] = '7';
-$config['smtp_user']    = 'pylondev10@gmail.com';
-$config['smtp_pass']    = 'ITpylon@dmin10';
-$config['charset']    = 'utf-8';
-$config['newline']    = "\r\n";
-$config['mailtype'] = 'text'; // or html
-$config['validation'] = TRUE; // bool whether to validate email or not     
+
 
 
 
@@ -47,7 +36,7 @@ $config = Array(
     'protocol' => 'mail',
     'smtp_host' => 'mail.pyloninternationals.com',
     'smtp_port' => 587 ,
-    'smtp_user' => 'pylondev10@pyloninternationals.com',
+    'smtp_user' => 'EQurantinePass@pyloninternationals.com',
     'smtp_pass' => 'ITpylon@dmin10',
     'mailtype'  => 'html', 
     'charset'   => 'iso-8859-1'
@@ -58,23 +47,25 @@ $this->load->library('email', $config);
 $this->email->set_newline("\r\n");
  
 //Email content
-$htmlContent = '<p>'.$data['fullname'].'</p>';
-$htmlContent .= '<p>'.$data['address'].'</p><br>';
-$htmlContent .= '<p>'.$data['position'].'</p>';
+$htmlContent = '<p>'.ucfirst($data['fullname']).'</p>';
+$htmlContent .= '<p>'.ucfirst($data['address']).'</p>';
+$htmlContent .= '<p>'.ucfirst($data['position']).'</p>';
+
+$htmlContent .= '<p>'.$data['email'].'</p>';
 $htmlContent .= '<p>'.$data['contact'].'</p><br>';
 
 
-$htmlContent .= '<p>'.date("Y/m/d").'</p><br>';
+$htmlContent .= '<p>'.date("M-d-Y").'</p><br>';
 
-
+$htmlContent .= '<p>Message:</p>';
 $htmlContent .= '<p>'.$data['message'].'</p><br>';
 
-$this->email->to('pasajol231@gmail.com');
-$this->email->from('pylondev10@pyloninternationals.com','Pylon International Trading Corp.');
+$this->email->to('pylon.intl.tradingcorp@gmail.com');
+$this->email->from($data['email'],'E-Qurantine Pass Inquiry');
 $this->email->subject('E-Qurantine Pass Inquiry');
 $this->email->message($htmlContent);
  
 //Send email
-$this->email->send();
+echo $this->email->send();
 }
 }
