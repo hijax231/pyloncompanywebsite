@@ -10,24 +10,24 @@
 					<img class="card-img-top" src="holder.js/100px180/" alt="">
 					<div class="card-body ">
 						<div class="row">
-							<div class="col-lg-6 col-sm-12 d-none d-sm-block">
+							<div class="col-lg-6 col-sm-12  d-none d-sm-block">
 
 								<img src="<?php echo base_url().'/assets/img/undraw_mobile_development_8gyo.svg'?>"
 									style="width: 100%" alt="">
 							</div>
 							<div class="col-lg-6 col-sm-12  ">
-								<h2 class="text-center card-title pt-5">Electronic Quarantine Pass Application</h5>
-									<p class="text-muted"> An Android Application for requesting a scheduled quarantine
+								<h2 class="text-center card-title pt-5 mt-5 font-weight-bold">Electronic Quarantine Pass Application</h5>
+									<p class="text-muted text-center"> An Android Application for requesting a scheduled quarantine
 										pass for the
 										residents of specific LGU system users. </p>
-									<img height="230px" class="rounded mx-auto d-block img-fluid responsive"
-										id="apkdown" src="<?php echo base_url().'/assets/img/download-apk.png' ?>"
-										onclick="showdownloadmodal()" alt="">
-									<div class="col-12 text-center pt-3">
-										<p class="h4 font-weight-bold">COMING SOON</p>
-										<img src="<?php echo base_url().'/assets/img/commingsoonhorizontaol.png' ?>"
-											style="width: 70%" alt="">
-									</div>
+
+
+										<div class="text-center pt-4">
+						
+										<button type="button" onclick="openemail()"
+												class="btn round text-center font-weight-bold  btn-red btn-lg ">Want your own? Click Here!</button>
+												</div>
+								
 							</div>
 
 
@@ -52,14 +52,14 @@
 
 
 
-						<div class="col-12 pt-5 pb-5">
+						<div class="col-12 pt-5 ">
 
 							<div class="row">
 
 								<div class="col-lg-6 col-sm-12 ">
 									<div class="row">
 
-										<div class="col-lg-6 text-center">
+										<div class="col-lg-6 mb-5 text-center">
 											<p class="h2 ">Frequently Asked Questions</p>
 											<p class="text-muted">Get to know E-Quarantine Pass inside and out!</p>
 											<a href="<?php echo base_url().'/assets/img/faq/faq.pdf' ?>" target="_blank"
